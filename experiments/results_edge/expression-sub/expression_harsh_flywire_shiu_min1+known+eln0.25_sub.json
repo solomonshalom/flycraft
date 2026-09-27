@@ -1,0 +1,207 @@
+{
+ "written": "2026-09-27 07:50:30",
+ "argv": [
+  "experiments/edge/expression_harsh.py",
+  "--dataset",
+  "flywire",
+  "--modes",
+  "sub",
+  "--sub-rates",
+  "105,110,115,120,125",
+  "--n-src",
+  "50",
+  "--seeds",
+  "3",
+  "--out-dir",
+  "experiments/results_edge/expression-sub",
+  "--tag",
+  "sub"
+ ],
+ "cwd": ".",
+ "env": {
+  "FLYBRAIN_SIGNS": "known",
+  "FLYBRAIN_ELN": "0.25",
+  "NUMBA_NUM_THREADS": "6"
+ },
+ "numba_threads": 6,
+ "chunks": 6,
+ "python": "3.12.8",
+ "numpy": "2.4.4",
+ "numba": "0.65.1",
+ "sha256_lif": "9c6fe7be4bc2aaed",
+ "sha256_script": "be39222e30a41c2a",
+ "sets": {
+  "reward": {
+   "n_mbons": 12,
+   "mbon_types": [
+    "MBON01",
+    "MBON02",
+    "MBON03",
+    "MBON05",
+    "MBON07"
+   ],
+   "n_inhibitory": 12,
+   "n_excitatory": 0,
+   "n_targets": 435,
+   "target_synapses": 16173,
+   "n_target_dns": 0,
+   "target_dn_types": []
+  },
+  "punish": {
+   "n_mbons": 20,
+   "mbon_types": [
+    "MBON11",
+    "MBON12",
+    "MBON13",
+    "MBON14",
+    "MBON18",
+    "MBON31",
+    "MBON32",
+    "MBON35"
+   ],
+   "n_inhibitory": 6,
+   "n_excitatory": 14,
+   "n_targets": 1024,
+   "target_synapses": 51971,
+   "n_target_dns": 28,
+   "target_dn_types": [
+    "DNa02",
+    "DNa03",
+    "DNa13",
+    "DNae005",
+    "DNb08",
+    "DNde003",
+    "DNg104",
+    "DNg13",
+    "DNge053",
+    "DNp52",
+    "DNpe023",
+    "DNpe042",
+    "MDN"
+   ]
+  },
+  "MBON14": {
+   "n_mbons": 4,
+   "mbon_types": [
+    "MBON14"
+   ],
+   "n_inhibitory": 0,
+   "n_excitatory": 4,
+   "n_targets": 135,
+   "target_synapses": 5107,
+   "n_target_dns": 0,
+   "target_dn_types": []
+  },
+  "MBON11": {
+   "n_mbons": 2,
+   "mbon_types": [
+    "MBON11"
+   ],
+   "n_inhibitory": 2,
+   "n_excitatory": 0,
+   "n_targets": 62,
+   "target_synapses": 3922,
+   "n_target_dns": 0,
+   "target_dn_types": []
+  },
+  "MBON01": {
+   "n_mbons": 2,
+   "mbon_types": [
+    "MBON01"
+   ],
+   "n_inhibitory": 2,
+   "n_excitatory": 0,
+   "n_targets": 68,
+   "target_synapses": 2097,
+   "n_target_dns": 0,
+   "target_dn_types": []
+  },
+  "MBON07": {
+   "n_mbons": 4,
+   "mbon_types": [
+    "MBON07"
+   ],
+   "n_inhibitory": 4,
+   "n_excitatory": 0,
+   "n_targets": 108,
+   "target_synapses": 2931,
+   "n_target_dns": 0,
+   "target_dn_types": []
+  }
+ },
+ "args": {
+  "dataset": "flywire",
+  "out_dir": "experiments/results_edge/expression-sub",
+  "tag": "sub",
+  "modes": [
+   "sub"
+  ],
+  "odor": "vinegar",
+  "hz": 150,
+  "presentations": [
+   "none",
+   "L",
+   "both"
+  ],
+  "min_syn": 10,
+  "seeds": 3,
+  "ms": 1000,
+  "mbon_hz": [
+   0,
+   20,
+   50,
+   100
+  ],
+  "types": [
+   "MBON14",
+   "MBON11",
+   "MBON01",
+   "MBON07"
+  ],
+  "type_hz": 50,
+  "bypass_hz": [
+   50,
+   100
+  ],
+  "tonic": [
+   0,
+   10,
+   40
+  ],
+  "hops": 3,
+  "sub_rates": [
+   105.0,
+   110.0,
+   115.0,
+   120.0,
+   125.0
+  ],
+  "n_src": 50,
+  "sub_band": [
+   1,
+   10
+  ],
+  "check_against": null
+ },
+ "sub_calibration": {
+  "punish@105": 0.0,
+  "punish@110": 0.0,
+  "punish@115": 1.674029451137885,
+  "punish@120": 5.815261044176707,
+  "punish@125": 8.749330655957161,
+  "reward@105": 0.0,
+  "reward@110": 0.0,
+  "reward@115": 1.6804597701149424,
+  "reward@120": 11.20536398467433,
+  "reward@125": 13.542528735632184
+ },
+ "dn_types": {
+  "total": 473,
+  "active_in_any_sim": 132
+ },
+ "files": [
+  "experiments/results_edge/expression-sub/expression_harsh_flywire_shiu_min1+known+eln0.25_sub.csv",
+  "experiments/results_edge/expression-sub/expression_harsh_flywire_shiu_min1+known+eln0.25_sub_dn_types.csv"
+ ],
+ "wall_total_s": 90.5
+}

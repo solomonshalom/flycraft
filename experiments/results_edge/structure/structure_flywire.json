@@ -1,0 +1,126 @@
+{
+ "written": "2026-09-27 01:29:42",
+ "argv": [
+  "experiments/edge/structure_probe.py",
+  "--dataset",
+  "flywire"
+ ],
+ "cwd": ".",
+ "env": {
+  "NUMBA_NUM_THREADS": "6"
+ },
+ "numba_threads": 6,
+ "chunks": 6,
+ "python": "3.12.8",
+ "numpy": "2.4.4",
+ "numba": "0.65.1",
+ "sha256_lif": "9c6fe7be4bc2aaed",
+ "sha256_script": "2f1db88e0f1140f4",
+ "variants": {
+  "known+eln0.25": {
+   "variant": "shiu_min1+known+eln0.25",
+   "signs": "known",
+   "eln": 0.25,
+   "n_sign_flipped": 11010,
+   "n_eln": 150
+  },
+  "shiu+eln0.25": {
+   "variant": "shiu_min1+eln0.25",
+   "signs": "shiu",
+   "eln": 0.25,
+   "n_sign_flipped": 0,
+   "n_eln": 166
+  },
+  "shiu": {
+   "variant": "shiu_min1",
+   "signs": "shiu",
+   "eln": 1.0,
+   "n_sign_flipped": 0,
+   "n_eln": 0
+  }
+ },
+ "checks": {
+  "route_sum_relerr": 6.96281151741158e-13,
+  "fwd_bwd_relerr": 6.348445795287028e-13,
+  "combo_additivity_relerr": 1.69649675146252e-14
+ },
+ "signflips": {
+  "n_flipped": 11010,
+  "n_flipped_apply_model_options": 11010,
+  "n_known": 81245,
+  "n_photoreceptor": 8359,
+  "n_photoreceptor_total": 11391,
+  "n_photoreceptor_pred_exc": 8620,
+  "n_photoreceptor_no_output": 837,
+  "n_histamine_flipped_not_photoreceptor": 5,
+  "photoreceptor_types": {
+   "R1-6": 6532,
+   "R8": 1002,
+   "R7": 825
+  },
+  "photoreceptor_sub_class": {
+   "(none)": 8219,
+   "DRA": 140
+  },
+  "by_direction": {
+   "exc->inh": 9572,
+   "inh->exc": 1438
+  },
+  "by_known_nt": {
+   "histamine": 8364,
+   "acetylcholine": 1399,
+   "glutamate": 912,
+   "gaba": 296,
+   "serotonin": 16,
+   "octopamine": 14,
+   "dopamine": 9
+  },
+  "by_super_class": {
+   "sensory": 8360,
+   "optic": 2440,
+   "central": 155,
+   "descending": 24,
+   "visual_projection": 18,
+   "visual_centrifugal": 9,
+   "ascending": 4
+  },
+  "out_syn_flipped": 845298.0,
+  "out_syn_all": 54490417.0,
+  "out_syn_photoreceptor": 225046.0,
+  "n_alln": 16,
+  "n_central_complex": 94
+ },
+ "eln": {
+  "n_alln": 429,
+  "eln_shiu": 166,
+  "eln_known": 150,
+  "eln_shiu_by_top_nt": {
+   "acetylcholine": 72,
+   "serotonin": 40,
+   "gaba": 29,
+   "dopamine": 12,
+   "glutamate": 11,
+   "octopamine": 2
+  },
+  "eln_known_by_top_nt": {
+   "acetylcholine": 71,
+   "serotonin": 38,
+   "gaba": 16,
+   "dopamine": 12,
+   "glutamate": 11,
+   "octopamine": 2
+  },
+  "n_eln_apply_model_options[known+eln0.25]": 150,
+  "n_eln_apply_model_options[shiu+eln0.25]": 166
+ },
+ "n_self_connections": 0,
+ "files": [
+  "experiments/results_edge/structure/structure_paths_flywire.csv",
+  "experiments/results_edge/structure/structure_routes_flywire.csv",
+  "experiments/results_edge/structure/structure_state_flywire.csv",
+  "experiments/results_edge/structure/structure_aln_flywire.csv",
+  "experiments/results_edge/structure/structure_signflips_flywire.csv",
+  "experiments/results_edge/structure/structure_flywire.md"
+ ],
+ "wall_s": 61.8
+}

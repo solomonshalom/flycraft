@@ -1,0 +1,15 @@
+top_nt,known_nt,sign_shiu,sign_known,n,out_syn,out_syn_to_alpn,eln_scaled_under_shiu,eln_scaled_under_known
+acetylcholine,,+,+,60,86202.0,24539.0,True,True
+acetylcholine,,-,-,8,4384.0,2196.0,False,False
+acetylcholine,acetylcholine,+,+,11,36969.0,13303.0,True,True
+acetylcholine,gaba,+,-,1,11450.0,2299.0,True,False
+dopamine,acetylcholine,+,+,12,46905.0,17143.0,True,True
+gaba,,+,+,16,60149.0,14975.0,True,True
+gaba,,-,-,118,186870.0,62303.0,False,False
+gaba,gaba,+,-,13,40247.0,12387.0,True,False
+glutamate,,+,+,11,19701.0,9455.0,True,True
+glutamate,,-,-,137,72747.0,34365.0,False,False
+octopamine,octopamine,+,+,2,1424.0,350.0,True,True
+serotonin,,+,+,17,83960.0,30096.0,True,True
+serotonin,acetylcholine,+,+,21,103384.0,32776.0,True,True
+serotonin,glutamate,+,-,2,4510.0,3657.0,True,False

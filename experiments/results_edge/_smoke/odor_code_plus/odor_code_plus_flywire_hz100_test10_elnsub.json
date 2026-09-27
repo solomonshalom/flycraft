@@ -1,0 +1,117 @@
+{
+ "written": "2026-09-27 01:17:13",
+ "argv": [
+  "experiments/edge/odor_code_plus.py",
+  "--dataset",
+  "flywire",
+  "--variants",
+  "shiu,known,known+eln0.5,known+eln0.1",
+  "--eln-subsets",
+  "--limit",
+  "1",
+  "--seeds",
+  "1",
+  "--out-dir",
+  "experiments/results_edge/_smoke/odor_code_plus"
+ ],
+ "cwd": ".",
+ "env": {
+  "NUMBA_NUM_THREADS": "6"
+ },
+ "numba_threads": 6,
+ "chunks": 6,
+ "python": "3.12.8",
+ "numpy": "2.4.4",
+ "numba": "0.65.1",
+ "sha256_lif": "9c6fe7be4bc2aaed",
+ "sha256_script": "2a0336adaf324605",
+ "variants": [
+  [
+   "shiu",
+   "shiu",
+   1.0
+  ],
+  [
+   "known",
+   "known",
+   1.0
+  ],
+  [
+   "known+eln0.5",
+   "known",
+   0.5
+  ],
+  [
+   "known+eln0.1",
+   "known",
+   0.1
+  ]
+ ],
+ "eln_subsets": {
+  "a": "all eLN x0.25",
+  "b": "ACh x0.25",
+  "c": "non-ACh x0.25",
+  "d": "mod x0",
+  "e": "mod x0, ACh x0.25",
+  "f": "gg flipped"
+ },
+ "hz": [
+  100.0
+ ],
+ "odor_sets": [
+  "test10"
+ ],
+ "odors": {
+  "test10": [
+   "DM2"
+  ]
+ },
+ "seeds": 1,
+ "ms": 500,
+ "live_min": 0.005,
+ "unclear_ln": "excitatory",
+ "subsets": {
+  "eln_counts": {
+   "ach": 71,
+   "mod": 52,
+   "gg": 27,
+   "other": 0
+  },
+  "eln_counts_by_nt": {
+   "acetylcholine": 71,
+   "serotonin": 38,
+   "gaba": 16,
+   "dopamine": 12,
+   "glutamate": 11,
+   "octopamine": 2
+  },
+  "a_equals_apply_model_options": true
+ },
+ "check": {
+  "reference": "experiments/results/odor_code_flywire.csv",
+  "reference_mtime": "2026-09-26 23:47:04",
+  "rows": 4,
+  "columns": 21,
+  "variants": [
+   "known",
+   "known+eln0.1",
+   "known+eln0.5",
+   "shiu"
+  ],
+  "seeds": [
+   0
+  ],
+  "odors": 1,
+  "cells_differ": 0,
+  "max_abs_diff": 0.0,
+  "columns_differ": {},
+  "rows_missing": 0,
+  "overlap": "skipped (--seeds 1 vs 2 in the reference)",
+  "status": "IDENTICAL"
+ },
+ "outputs": [
+  "experiments/results_edge/_smoke/odor_code_plus/odor_code_plus_flywire_hz100_test10_elnsub.csv",
+  "experiments/results_edge/_smoke/odor_code_plus/odor_code_plus_flywire_hz100_test10_elnsub_overlap.csv",
+  "experiments/results_edge/_smoke/odor_code_plus/odor_code_plus_flywire_hz100_test10_elnsub_codes.npz"
+ ]
+}

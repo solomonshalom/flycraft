@@ -1,0 +1,36 @@
+{
+ "written": "2026-09-27 08:35:39",
+ "argv": [
+  "experiments/edge/p1_name_male.py",
+  "--seeds",
+  "3",
+  "--ms",
+  "1000",
+  "--out-dir",
+  "experiments/results_edge/p1-name-male"
+ ],
+ "cwd": ".",
+ "env": {
+  "FLYBRAIN_SIGNS": "known",
+  "FLYBRAIN_ELN": "0.25",
+  "NUMBA_NUM_THREADS": "6"
+ },
+ "numba_threads": 6,
+ "chunks": 6,
+ "python": "3.12.8",
+ "numpy": "2.4.4",
+ "numba": "0.65.1",
+ "sha256_lif": "9c6fe7be4bc2aaed",
+ "sha256_script": "0a6fbef5f0333f6c",
+ "seeds": 3,
+ "ms": 1000.0,
+ "gains": "1.0,1.4",
+ "n_p1": 148,
+ "drives": [
+  "none",
+  "cVA (Or67d/DA1)",
+  "touch (all head bristles)",
+  "cVA + touch",
+  "cVA + touch@200"
+ ]
+}

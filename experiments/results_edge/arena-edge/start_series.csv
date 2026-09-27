@@ -1,0 +1,13 @@
+variant,chamber,condition,excluded,trials,logs,trials_contact,contact_pct_mean,contact_pct_sd,longest_bout_s,excluded_trials
+specific,sync-clean,mf,none,5,5,2,0.9838483888673478,1.7185271229836383,2.1,
+specific,sync-clean,mf,placed,5,5,2,0.9838483888673478,1.7185271229836383,2.1,
+specific,sync-clean,mf,plan,5,5,2,0.9838483888673478,1.7185271229836383,2.1,
+specific,sync-noise0.2,ff,none,5,10,5,46.13769416228224,27.3806324829398,15.850000000000001,
+specific,sync-noise0.2,ff,placed,5,10,5,46.13769416228224,27.3806324829398,15.850000000000001,
+specific,sync-noise0.2,ff,plan,5,10,5,46.13769416228224,27.3806324829398,15.850000000000001,
+specific,sync-noise0.2,mf,none,5,5,5,3.7372639649795913,2.7229724301224905,6.2,
+specific,sync-noise0.2,mf,placed,5,5,5,3.7372639649795913,2.7229724301224905,6.2,
+specific,sync-noise0.2,mf,plan,5,5,5,3.7372639649795913,2.7229724301224905,6.2,
+specific,sync-noise0.2-notouch,ff,none,5,10,5,5.633772491486835,2.955624790852658,3.6,
+specific,sync-noise0.2-notouch,ff,placed,5,10,5,5.633772491486835,2.955624790852658,3.6,
+specific,sync-noise0.2-notouch,ff,plan,5,10,5,5.633772491486835,2.955624790852658,3.6,

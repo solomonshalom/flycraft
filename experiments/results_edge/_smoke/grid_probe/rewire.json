@@ -1,0 +1,101 @@
+{
+ "written": "2026-09-27 01:24:33",
+ "argv": [
+  "experiments/edge/grid_probe.py",
+  "--dataset",
+  "flywire",
+  "--cond",
+  "rewire=global,shuffle=0",
+  "--drives",
+  "touch (all head bristles)",
+  "--seeds",
+  "1",
+  "--ms",
+  "800",
+  "--out",
+  "experiments/results_edge/_smoke/grid_probe/rewire.csv",
+  "--check-against",
+  "experiments/results/shuffle_flywire_shiu_min1+known+eln0.25_global.csv"
+ ],
+ "cwd": ".",
+ "env": {
+  "FLYBRAIN_SIGNS": "known",
+  "FLYBRAIN_ELN": "0.25",
+  "NUMBA_NUM_THREADS": "6"
+ },
+ "numba_threads": 6,
+ "chunks": 6,
+ "python": "3.12.8",
+ "numpy": "2.4.4",
+ "numba": "0.65.1",
+ "sha256_lif": "9c6fe7be4bc2aaed",
+ "sha256_script": "36bafb71851575ef",
+ "load": {
+  "shiu_min1+known+eln0.25": {}
+ },
+ "frac_moved": {
+  "shiu_min1+known+eln0.25|none|-1": 0.0,
+  "shiu_min1+known+eln0.25|global|0": 0.998567678246528
+ },
+ "check": {
+  "file": "experiments/results/shuffle_flywire_shiu_min1+known+eln0.25_global.csv",
+  "kind": "shuffle",
+  "cells": 38,
+  "mismatches": 0
+ },
+ "conditions": [
+  {
+   "label": "intact",
+   "conn": "shiu",
+   "min_syn": 1,
+   "min_syn_mem": null,
+   "signs": "known",
+   "eln": 0.25,
+   "unclear": "excitatory",
+   "gain": 1.0,
+   "hz": 100.0,
+   "dt": 0.2,
+   "t_ref": 2.2,
+   "delay": 1.8,
+   "legacy": false,
+   "noise_hz": 0.0,
+   "eps_v": 0.01,
+   "eps_g": 0.001,
+   "kick_mv": 68.75,
+   "rewire": "none",
+   "shuffle": -1,
+   "cond_id": 0
+  },
+  {
+   "label": "rewire=global,shuffle=0",
+   "conn": "shiu",
+   "min_syn": 1,
+   "min_syn_mem": null,
+   "signs": "known",
+   "eln": 0.25,
+   "unclear": "excitatory",
+   "gain": 1.0,
+   "hz": 100.0,
+   "dt": 0.2,
+   "t_ref": 2.2,
+   "delay": 1.8,
+   "legacy": false,
+   "noise_hz": 0.0,
+   "eps_v": 0.01,
+   "eps_g": 0.001,
+   "kick_mv": 68.75,
+   "rewire": "global",
+   "shuffle": 0,
+   "cond_id": 1
+  }
+ ],
+ "presets": [],
+ "protocol": "window",
+ "n_rows": 2,
+ "outputs": [
+  "experiments/results_edge/_smoke/grid_probe/rewire.csv",
+  "experiments/results_edge/_smoke/grid_probe/rewire.check.txt"
+ ],
+ "on_sched": null,
+ "off_sched": null
+}

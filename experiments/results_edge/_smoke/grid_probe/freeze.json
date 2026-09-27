@@ -1,0 +1,113 @@
+{
+ "written": "2026-09-27 01:18:02",
+ "argv": [
+  "experiments/edge/grid_probe.py",
+  "--dataset",
+  "flywire",
+  "--preset",
+  "freeze",
+  "--seeds",
+  "1",
+  "--ms",
+  "300",
+  "--out",
+  "experiments/results_edge/_smoke/grid_probe/freeze.csv"
+ ],
+ "cwd": ".",
+ "env": {
+  "FLYBRAIN_SIGNS": "known",
+  "FLYBRAIN_ELN": "0.25",
+  "NUMBA_NUM_THREADS": "6"
+ },
+ "numba_threads": 6,
+ "chunks": 6,
+ "python": "3.12.8",
+ "numpy": "2.4.4",
+ "numba": "0.65.1",
+ "sha256_lif": "9c6fe7be4bc2aaed",
+ "sha256_script": "8779c20be50767e1",
+ "load": {
+  "shiu_min1+known+eln0.25": {}
+ },
+ "frac_moved": {
+  "shiu_min1+known+eln0.25|none|-1": 0.0
+ },
+ "freeze_random": [
+  {
+   "draw": 0,
+   "n": 1417,
+   "pool": 15309,
+   "classes": {
+    "visual": 1074,
+    "olfactory": 182,
+    "mechanosensory": 101,
+    "gustatory": 34,
+    "unknown_sensory": 18,
+    "hygrosensory": 6,
+    "thermosensory": 2
+   }
+  },
+  {
+   "draw": 1,
+   "n": 1417,
+   "pool": 15309,
+   "classes": {
+    "visual": 1069,
+    "olfactory": 192,
+    "mechanosensory": 113,
+    "gustatory": 26,
+    "unknown_sensory": 12,
+    "hygrosensory": 4,
+    "thermosensory": 1
+   }
+  },
+  {
+   "draw": 2,
+   "n": 1417,
+   "pool": 15309,
+   "classes": {
+    "visual": 1046,
+    "olfactory": 191,
+    "mechanosensory": 125,
+    "gustatory": 41,
+    "hygrosensory": 8,
+    "unknown_sensory": 5,
+    "thermosensory": 1
+   }
+  }
+ ],
+ "conditions": [
+  {
+   "label": "base",
+   "conn": "shiu",
+   "min_syn": 1,
+   "min_syn_mem": null,
+   "signs": "known",
+   "eln": 0.25,
+   "unclear": "excitatory",
+   "gain": 1.0,
+   "hz": 100.0,
+   "dt": 0.2,
+   "t_ref": 2.2,
+   "delay": 1.8,
+   "legacy": false,
+   "noise_hz": 0.0,
+   "eps_v": 0.01,
+   "eps_g": 0.001,
+   "kick_mv": 68.75,
+   "rewire": "none",
+   "shuffle": -1,
+   "cond_id": 0
+  }
+ ],
+ "presets": [
+  "freeze"
+ ],
+ "protocol": "window",
+ "n_rows": 13,
+ "outputs": [
+  "experiments/results_edge/_smoke/grid_probe/freeze.csv"
+ ],
+ "on_sched": null,
+ "off_sched": null
+}

@@ -1,0 +1,83 @@
+{
+ "ref": "experiments/results_edge/brian2-first-divergence/ref_sugar_times.npz",
+ "conn": "$TMPDIR/flycraft_brian2/flywire_export.npz",
+ "dt": 0.1,
+ "ms": 1000.0,
+ "drive": [
+  "in_grn_sugar:100"
+ ],
+ "gain": 1.0,
+ "w_syn_mv": 0.275,
+ "kick_mv": 68.75,
+ "noise_hz": 0.0,
+ "eps_v": 0.0,
+ "eps_g": 0.0,
+ "float64": true,
+ "chunks_T": 6,
+ "step_offset": 0,
+ "offset_calib_seed": 1,
+ "offset_hits": {
+  "0": 24215,
+  "-1": 0,
+  "1": 0,
+  "-2": 0,
+  "2": 0,
+  "-3": 0,
+  "3": 0
+ },
+ "notes": [],
+ "asserts_failed": [],
+ "seeds": [
+  {
+   "seed": 0,
+   "spikes_b2": 23512,
+   "spikes_kernel": 23512,
+   "counts_identical": true,
+   "neurons_count_differs": 0,
+   "b2_list_matches_counts": true,
+   "kernel_list_matches_counts": true,
+   "masked_equals_unmasked": true,
+   "split_run_equals_whole": true,
+   "lists_identical": true,
+   "n_match": 23512,
+   "n_b2_only": 0,
+   "n_kernel_only": 0,
+   "kernel_wall_s": 0.461,
+   "first_mismatch": null
+  },
+  {
+   "seed": 1,
+   "spikes_b2": 24215,
+   "spikes_kernel": 24215,
+   "counts_identical": true,
+   "neurons_count_differs": 0,
+   "b2_list_matches_counts": true,
+   "kernel_list_matches_counts": true,
+   "masked_equals_unmasked": true,
+   "split_run_equals_whole": true,
+   "lists_identical": true,
+   "n_match": 24215,
+   "n_b2_only": 0,
+   "n_kernel_only": 0,
+   "kernel_wall_s": 0.435,
+   "first_mismatch": null
+  },
+  {
+   "seed": 2,
+   "spikes_b2": 24782,
+   "spikes_kernel": 24782,
+   "counts_identical": true,
+   "neurons_count_differs": 0,
+   "b2_list_matches_counts": true,
+   "kernel_list_matches_counts": true,
+   "masked_equals_unmasked": true,
+   "split_run_equals_whole": true,
+   "lists_identical": true,
+   "n_match": 24782,
+   "n_b2_only": 0,
+   "n_kernel_only": 0,
+   "kernel_wall_s": 0.453,
+   "first_mismatch": null
+  }
+ ]
+}

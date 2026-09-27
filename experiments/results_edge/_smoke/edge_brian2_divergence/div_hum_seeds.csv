@@ -1,0 +1,2 @@
+seed,spikes_b2,spikes_kernel,counts_identical,neurons_count_differs,b2_list_matches_counts,kernel_list_matches_counts,masked_equals_unmasked,split_run_equals_whole,lists_identical,n_match,n_b2_only,n_kernel_only,kernel_wall_s,first_step,first_t_ms,first_neurons,first_margin_mv,first_class
+0,87098,89440,False,27329,True,True,True,True,False,746,86352,88694,1.235,1,0.1,15115 47353 79983 82127,-61.407107944496914,kick-driven (random stream or a kick discarded while refractory)

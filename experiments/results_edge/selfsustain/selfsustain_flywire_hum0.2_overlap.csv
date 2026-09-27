@@ -1,0 +1,7 @@
+a,b,n_a,n_b,jaccard
+shiu_min1+known+eln0.25|1.0|none|0.0|0,shiu_min1+known+eln0.25|1.0|none|0.0|1,2009,2062,0.8700045934772623
+shiu_min1+known+eln0.25|1.0|none|0.0|0,shiu_min1|1.0|none|0.0|0,2009,8349,0.20680414773389258
+shiu_min1+known+eln0.25|1.0|none|0.0|0,shiu_min1|1.0|none|0.0|1,2009,8337,0.20765728959962648
+shiu_min1+known+eln0.25|1.0|none|0.0|1,shiu_min1|1.0|none|0.0|0,2062,8349,0.20749246114590583
+shiu_min1+known+eln0.25|1.0|none|0.0|1,shiu_min1|1.0|none|0.0|1,2062,8337,0.20820262576972232
+shiu_min1|1.0|none|0.0|0,shiu_min1|1.0|none|0.0|1,8349,8337,0.9774828158331358

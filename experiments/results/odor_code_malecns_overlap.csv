@@ -1,0 +1,276 @@
+variant,odor_a,odor_b,same_odor,jaccard
+shiu,DM2,DM2,True,
+shiu,DM2,DL5,False,0.975796178343949
+shiu,DM2,DA1,False,0.9679700499168054
+shiu,DM2,VA1v,False,0.9573378839590444
+shiu,DM2,DM1,False,0.9605587510271159
+shiu,DM2,VM2,False,0.9782793867120954
+shiu,DM2,V,False,0.9749469214437367
+shiu,DM2,DC3,False,0.9757756056098598
+shiu,DM2,DA2,False,0.9778156996587031
+shiu,DM2,food blend (DM1+DM2+DM4+VA2+VM2),False,0.8982725527831094
+shiu,DL5,DL5,True,
+shiu,DL5,DA1,False,0.9616346955796498
+shiu,DL5,VA1v,False,0.9684937419076391
+shiu,DL5,DM1,False,0.9462674323215751
+shiu,DL5,VM2,False,0.9853826311263972
+shiu,DL5,V,False,0.9828473413379074
+shiu,DL5,DC3,False,0.9862483884830253
+shiu,DL5,DA2,False,0.985781990521327
+shiu,DL5,food blend (DM1+DM2+DM4+VA2+VM2),False,0.8879078694817658
+shiu,DA1,DA1,True,
+shiu,DA1,VA1v,False,0.9385708315921437
+shiu,DA1,DM1,False,0.9725971370143149
+shiu,DA1,VM2,False,0.9599332220367279
+shiu,DA1,V,False,0.9640768588137009
+shiu,DA1,DC3,False,0.9591496456857024
+shiu,DA1,DA2,False,0.9594481605351171
+shiu,DA1,food blend (DM1+DM2+DM4+VA2+VM2),False,0.9178502879078695
+shiu,VA1v,VA1v,True,
+shiu,VA1v,DM1,False,0.9235511713933415
+shiu,VA1v,VM2,False,0.970995670995671
+shiu,VA1v,V,False,0.9693304535637149
+shiu,VA1v,DC3,False,0.9701686121919585
+shiu,VA1v,DA2,False,0.9739357080799305
+shiu,VA1v,food blend (DM1+DM2+DM4+VA2+VM2),False,0.8629558541266794
+shiu,DM1,DM1,True,
+shiu,DM1,VM2,False,0.9461791290057519
+shiu,DM1,V,False,0.948644207066557
+shiu,DM1,DC3,False,0.9478225143796221
+shiu,DM1,DA2,False,0.9432799013563502
+shiu,DM1,food blend (DM1+DM2+DM4+VA2+VM2),False,0.9335892514395393
+shiu,VM2,VM2,True,
+shiu,VM2,V,False,0.9785683669095585
+shiu,VM2,DC3,False,0.9836629406706793
+shiu,VM2,DA2,False,0.9849007765314927
+shiu,VM2,food blend (DM1+DM2+DM4+VA2+VM2),False,0.8848368522072937
+shiu,V,V,True,
+shiu,V,DC3,False,0.9811320754716981
+shiu,V,DA2,False,0.9874892148403797
+shiu,V,food blend (DM1+DM2+DM4+VA2+VM2),False,0.886415963161934
+shiu,DC3,DC3,True,
+shiu,DC3,DA2,False,0.9832041343669251
+shiu,DC3,food blend (DM1+DM2+DM4+VA2+VM2),False,0.8863723608445297
+shiu,DA2,DA2,True,
+shiu,DA2,food blend (DM1+DM2+DM4+VA2+VM2),False,0.8813819577735125
+shiu,food blend (DM1+DM2+DM4+VA2+VM2),food blend (DM1+DM2+DM4+VA2+VM2),True,
+known,DM2,DM2,True,
+known,DM2,DL5,False,0.975796178343949
+known,DM2,DA1,False,0.9679700499168054
+known,DM2,VA1v,False,0.9573378839590444
+known,DM2,DM1,False,0.9605587510271159
+known,DM2,VM2,False,0.9782793867120954
+known,DM2,V,False,0.9749469214437367
+known,DM2,DC3,False,0.9757756056098598
+known,DM2,DA2,False,0.9778156996587031
+known,DM2,food blend (DM1+DM2+DM4+VA2+VM2),False,0.8982725527831094
+known,DL5,DL5,True,
+known,DL5,DA1,False,0.9616346955796498
+known,DL5,VA1v,False,0.9684937419076391
+known,DL5,DM1,False,0.9462674323215751
+known,DL5,VM2,False,0.9853826311263972
+known,DL5,V,False,0.9828473413379074
+known,DL5,DC3,False,0.9862483884830253
+known,DL5,DA2,False,0.985781990521327
+known,DL5,food blend (DM1+DM2+DM4+VA2+VM2),False,0.8879078694817658
+known,DA1,DA1,True,
+known,DA1,VA1v,False,0.9385708315921437
+known,DA1,DM1,False,0.9725971370143149
+known,DA1,VM2,False,0.9599332220367279
+known,DA1,V,False,0.9640768588137009
+known,DA1,DC3,False,0.9591496456857024
+known,DA1,DA2,False,0.9594481605351171
+known,DA1,food blend (DM1+DM2+DM4+VA2+VM2),False,0.9178502879078695
+known,VA1v,VA1v,True,
+known,VA1v,DM1,False,0.9235511713933415
+known,VA1v,VM2,False,0.970995670995671
+known,VA1v,V,False,0.9693304535637149
+known,VA1v,DC3,False,0.9701686121919585
+known,VA1v,DA2,False,0.9739357080799305
+known,VA1v,food blend (DM1+DM2+DM4+VA2+VM2),False,0.8629558541266794
+known,DM1,DM1,True,
+known,DM1,VM2,False,0.9461791290057519
+known,DM1,V,False,0.948644207066557
+known,DM1,DC3,False,0.9478225143796221
+known,DM1,DA2,False,0.9432799013563502
+known,DM1,food blend (DM1+DM2+DM4+VA2+VM2),False,0.9335892514395393
+known,VM2,VM2,True,
+known,VM2,V,False,0.9785683669095585
+known,VM2,DC3,False,0.9836629406706793
+known,VM2,DA2,False,0.9849007765314927
+known,VM2,food blend (DM1+DM2+DM4+VA2+VM2),False,0.8848368522072937
+known,V,V,True,
+known,V,DC3,False,0.9811320754716981
+known,V,DA2,False,0.9874892148403797
+known,V,food blend (DM1+DM2+DM4+VA2+VM2),False,0.886415963161934
+known,DC3,DC3,True,
+known,DC3,DA2,False,0.9832041343669251
+known,DC3,food blend (DM1+DM2+DM4+VA2+VM2),False,0.8863723608445297
+known,DA2,DA2,True,
+known,DA2,food blend (DM1+DM2+DM4+VA2+VM2),False,0.8813819577735125
+known,food blend (DM1+DM2+DM4+VA2+VM2),food blend (DM1+DM2+DM4+VA2+VM2),True,
+known+eln0.5,DM2,DM2,True,
+known+eln0.5,DM2,DL5,False,0.6237623762376238
+known+eln0.5,DM2,DA1,False,0.5144927536231884
+known+eln0.5,DM2,VA1v,False,0.6767676767676768
+known+eln0.5,DM2,DM1,False,0.3433734939759036
+known+eln0.5,DM2,VM2,False,0.6633663366336634
+known+eln0.5,DM2,V,False,0.603448275862069
+known+eln0.5,DM2,DC3,False,0.5752212389380531
+known+eln0.5,DM2,DA2,False,0.6448598130841121
+known+eln0.5,DM2,food blend (DM1+DM2+DM4+VA2+VM2),False,0.22569444444444445
+known+eln0.5,DL5,DL5,True,
+known+eln0.5,DL5,DA1,False,0.48854961832061067
+known+eln0.5,DL5,VA1v,False,0.7272727272727273
+known+eln0.5,DL5,DM1,False,0.3660130718954248
+known+eln0.5,DL5,VM2,False,0.7111111111111111
+known+eln0.5,DL5,V,False,0.6226415094339622
+known+eln0.5,DL5,DC3,False,0.6907216494845361
+known+eln0.5,DL5,DA2,False,0.6701030927835051
+known+eln0.5,DL5,food blend (DM1+DM2+DM4+VA2+VM2),False,0.16494845360824742
+known+eln0.5,DA1,DA1,True,
+known+eln0.5,DA1,VA1v,False,0.628099173553719
+known+eln0.5,DA1,DM1,False,0.30927835051546393
+known+eln0.5,DA1,VM2,False,0.6048387096774194
+known+eln0.5,DA1,V,False,0.631578947368421
+known+eln0.5,DA1,DC3,False,0.5144927536231884
+known+eln0.5,DA1,DA2,False,0.656
+known+eln0.5,DA1,food blend (DM1+DM2+DM4+VA2+VM2),False,0.18153846153846154
+known+eln0.5,VA1v,VA1v,True,
+known+eln0.5,VA1v,DM1,False,0.3881578947368421
+known+eln0.5,VA1v,VM2,False,0.7931034482758621
+known+eln0.5,VA1v,V,False,0.7058823529411765
+known+eln0.5,VA1v,DC3,False,0.6767676767676768
+known+eln0.5,VA1v,DA2,False,0.7634408602150538
+known+eln0.5,VA1v,food blend (DM1+DM2+DM4+VA2+VM2),False,0.18815331010452963
+known+eln0.5,DM1,DM1,True,
+known+eln0.5,DM1,VM2,False,0.3741935483870968
+known+eln0.5,DM1,V,False,0.3352601156069364
+known+eln0.5,DM1,DC3,False,0.3515151515151515
+known+eln0.5,DM1,DA2,False,0.3313253012048193
+known+eln0.5,DM1,food blend (DM1+DM2+DM4+VA2+VM2),False,0.4014084507042254
+known+eln0.5,VM2,VM2,True,
+known+eln0.5,VM2,V,False,0.7254901960784313
+known+eln0.5,VM2,DC3,False,0.696969696969697
+known+eln0.5,VM2,DA2,False,0.7473684210526316
+known+eln0.5,VM2,food blend (DM1+DM2+DM4+VA2+VM2),False,0.17869415807560138
+known+eln0.5,V,V,True,
+known+eln0.5,V,DC3,False,0.6460176991150443
+known+eln0.5,V,DA2,False,0.7692307692307693
+known+eln0.5,V,food blend (DM1+DM2+DM4+VA2+VM2),False,0.18360655737704917
+known+eln0.5,DC3,DC3,True,
+known+eln0.5,DC3,DA2,False,0.6761904761904762
+known+eln0.5,DC3,food blend (DM1+DM2+DM4+VA2+VM2),False,0.17275747508305647
+known+eln0.5,DA2,DA2,True,
+known+eln0.5,DA2,food blend (DM1+DM2+DM4+VA2+VM2),False,0.17391304347826086
+known+eln0.5,food blend (DM1+DM2+DM4+VA2+VM2),food blend (DM1+DM2+DM4+VA2+VM2),True,
+known+eln0.25,DM2,DM2,True,
+known+eln0.25,DM2,DL5,False,0.09090909090909091
+known+eln0.25,DM2,DA1,False,0.0
+known+eln0.25,DM2,VA1v,False,0.0
+known+eln0.25,DM2,DM1,False,0.0
+known+eln0.25,DM2,VM2,False,0.0
+known+eln0.25,DM2,V,False,0.0
+known+eln0.25,DM2,DC3,False,0.0
+known+eln0.25,DM2,DA2,False,0.1111111111111111
+known+eln0.25,DM2,food blend (DM1+DM2+DM4+VA2+VM2),False,0.007575757575757576
+known+eln0.25,DL5,DL5,True,
+known+eln0.25,DL5,DA1,False,0.0
+known+eln0.25,DL5,VA1v,False,0.25
+known+eln0.25,DL5,DM1,False,0.019230769230769232
+known+eln0.25,DL5,VM2,False,0.0
+known+eln0.25,DL5,V,False,0.0
+known+eln0.25,DL5,DC3,False,0.2
+known+eln0.25,DL5,DA2,False,0.2
+known+eln0.25,DL5,food blend (DM1+DM2+DM4+VA2+VM2),False,0.0
+known+eln0.25,DA1,DA1,True,
+known+eln0.25,DA1,VA1v,False,0.0
+known+eln0.25,DA1,DM1,False,0.0
+known+eln0.25,DA1,VM2,False,0.0
+known+eln0.25,DA1,V,False,0.16666666666666666
+known+eln0.25,DA1,DC3,False,0.0
+known+eln0.25,DA1,DA2,False,0.0
+known+eln0.25,DA1,food blend (DM1+DM2+DM4+VA2+VM2),False,0.0
+known+eln0.25,VA1v,VA1v,True,
+known+eln0.25,VA1v,DM1,False,0.02040816326530612
+known+eln0.25,VA1v,VM2,False,0.0
+known+eln0.25,VA1v,V,False,0.0
+known+eln0.25,VA1v,DC3,False,0.5
+known+eln0.25,VA1v,DA2,False,0.5
+known+eln0.25,VA1v,food blend (DM1+DM2+DM4+VA2+VM2),False,0.0
+known+eln0.25,DM1,DM1,True,
+known+eln0.25,DM1,VM2,False,0.0
+known+eln0.25,DM1,V,False,0.0
+known+eln0.25,DM1,DC3,False,0.02
+known+eln0.25,DM1,DA2,False,0.02
+known+eln0.25,DM1,food blend (DM1+DM2+DM4+VA2+VM2),False,0.16
+known+eln0.25,VM2,VM2,True,
+known+eln0.25,VM2,V,False,0.0
+known+eln0.25,VM2,DC3,False,0.0
+known+eln0.25,VM2,DA2,False,0.0
+known+eln0.25,VM2,food blend (DM1+DM2+DM4+VA2+VM2),False,0.0
+known+eln0.25,V,V,True,
+known+eln0.25,V,DC3,False,0.0
+known+eln0.25,V,DA2,False,0.0
+known+eln0.25,V,food blend (DM1+DM2+DM4+VA2+VM2),False,0.0
+known+eln0.25,DC3,DC3,True,
+known+eln0.25,DC3,DA2,False,0.3333333333333333
+known+eln0.25,DC3,food blend (DM1+DM2+DM4+VA2+VM2),False,0.0
+known+eln0.25,DA2,DA2,True,
+known+eln0.25,DA2,food blend (DM1+DM2+DM4+VA2+VM2),False,0.0
+known+eln0.25,food blend (DM1+DM2+DM4+VA2+VM2),food blend (DM1+DM2+DM4+VA2+VM2),True,
+known+eln0.1,DM2,DM2,True,
+known+eln0.1,DM2,DL5,False,0.0
+known+eln0.1,DM2,DA1,False,0.0
+known+eln0.1,DM2,VA1v,False,0.0
+known+eln0.1,DM2,DM1,False,0.0
+known+eln0.1,DM2,VM2,False,0.0
+known+eln0.1,DM2,V,False,0.0
+known+eln0.1,DM2,DC3,False,0.0
+known+eln0.1,DM2,DA2,False,0.0
+known+eln0.1,DM2,food blend (DM1+DM2+DM4+VA2+VM2),False,0.0
+known+eln0.1,DL5,DL5,True,
+known+eln0.1,DL5,DA1,False,0.0
+known+eln0.1,DL5,VA1v,False,0.0
+known+eln0.1,DL5,DM1,False,0.0
+known+eln0.1,DL5,VM2,False,0.0
+known+eln0.1,DL5,V,False,0.0
+known+eln0.1,DL5,DC3,False,0.0
+known+eln0.1,DL5,DA2,False,0.0
+known+eln0.1,DL5,food blend (DM1+DM2+DM4+VA2+VM2),False,0.0
+known+eln0.1,DA1,DA1,True,
+known+eln0.1,DA1,VA1v,False,0.0
+known+eln0.1,DA1,DM1,False,0.0
+known+eln0.1,DA1,VM2,False,0.0
+known+eln0.1,DA1,V,False,0.0
+known+eln0.1,DA1,DC3,False,0.0
+known+eln0.1,DA1,DA2,False,0.0
+known+eln0.1,DA1,food blend (DM1+DM2+DM4+VA2+VM2),False,0.0
+known+eln0.1,VA1v,VA1v,True,
+known+eln0.1,VA1v,DM1,False,0.0
+known+eln0.1,VA1v,VM2,False,0.0
+known+eln0.1,VA1v,V,False,0.0
+known+eln0.1,VA1v,DC3,False,0.0
+known+eln0.1,VA1v,DA2,False,0.0
+known+eln0.1,VA1v,food blend (DM1+DM2+DM4+VA2+VM2),False,0.0
+known+eln0.1,DM1,DM1,True,
+known+eln0.1,DM1,VM2,False,0.0
+known+eln0.1,DM1,V,False,0.0
+known+eln0.1,DM1,DC3,False,0.0
+known+eln0.1,DM1,DA2,False,0.0
+known+eln0.1,DM1,food blend (DM1+DM2+DM4+VA2+VM2),False,0.175
+known+eln0.1,VM2,VM2,True,
+known+eln0.1,VM2,V,False,0.0
+known+eln0.1,VM2,DC3,False,0.0
+known+eln0.1,VM2,DA2,False,0.0
+known+eln0.1,VM2,food blend (DM1+DM2+DM4+VA2+VM2),False,0.0
+known+eln0.1,V,V,True,
+known+eln0.1,V,DC3,False,0.0
+known+eln0.1,V,DA2,False,0.0
+known+eln0.1,V,food blend (DM1+DM2+DM4+VA2+VM2),False,0.0
+known+eln0.1,DC3,DC3,True,
+known+eln0.1,DC3,DA2,False,0.0
+known+eln0.1,DC3,food blend (DM1+DM2+DM4+VA2+VM2),False,0.0
+known+eln0.1,DA2,DA2,True,
+known+eln0.1,DA2,food blend (DM1+DM2+DM4+VA2+VM2),False,0.0
+known+eln0.1,food blend (DM1+DM2+DM4+VA2+VM2),food blend (DM1+DM2+DM4+VA2+VM2),True,

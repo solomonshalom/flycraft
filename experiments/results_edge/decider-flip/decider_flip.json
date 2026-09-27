@@ -1,0 +1,39 @@
+{
+ "written": "2026-09-27 07:38:05",
+ "argv": [
+  "experiments/edge/decider_flip.py",
+  "--seeds",
+  "3",
+  "--ms",
+  "1000",
+  "--gains",
+  "1.0,1.4",
+  "--out-dir",
+  "experiments/results_edge/decider-flip"
+ ],
+ "cwd": ".",
+ "env": {
+  "NUMBA_NUM_THREADS": "6"
+ },
+ "numba_threads": 6,
+ "chunks": 6,
+ "python": "3.12.8",
+ "numpy": "2.4.4",
+ "numba": "0.65.1",
+ "sha256_lif": "9c6fe7be4bc2aaed",
+ "sha256_script": "3fc18406d4cdb7df",
+ "pred_types": [
+  "AOTU064",
+  "AVLP531",
+  "PS088",
+  "CB0584",
+  "WED104",
+  "PVLP021"
+ ],
+ "n_pred": 14,
+ "n_oviIN": 2,
+ "seeds": 3,
+ "ms": 1000.0,
+ "hz": 100,
+ "gains": "1.0,1.4"
+}

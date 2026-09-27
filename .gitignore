@@ -1,0 +1,35 @@
+# connectome data (GBs; see the top of brain/flybrain/connectome.py and malecns.py for the files and sources)
+data/
+
+# run outputs, release packages, local environments
+logs/
+release/
+/results/
+.venv-flyvis/
+b2venv/
+bot/node_modules/
+__pycache__/
+.DS_Store
+*.ready
+
+# Minecraft server: only the scripts that set it up
+server/*
+!server/setup.sh
+!server/setup_wild.sh
+!server/run.sh
+
+# paper: old drafts and build logs
+paper/archive/
+paper/*.log
+paper/*.aux
+paper/*.out
+
+# not part of this project's release
+pif-bench/
+The Metaphysics of Farts.pdf
+notes/
+PAPER.md
+WHATS_LEFT_FLY.md
+TODO.md
+experiments/edge/paper_reviews_draft6.md
+experiments/edge/paper_reviews_draft6_round2.md

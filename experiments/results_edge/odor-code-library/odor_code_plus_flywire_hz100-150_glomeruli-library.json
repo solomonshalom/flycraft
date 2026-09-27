@@ -1,0 +1,139 @@
+{
+ "written": "2026-09-27 07:19:34",
+ "argv": [
+  "experiments/edge/odor_code_plus.py",
+  "--dataset",
+  "flywire",
+  "--variants",
+  "known+eln0.25",
+  "--hz",
+  "100,150",
+  "--odors",
+  "glomeruli,library",
+  "--out-dir",
+  "experiments/results_edge/odor-code-library",
+  "--skip-existing"
+ ],
+ "cwd": ".",
+ "env": {
+  "NUMBA_NUM_THREADS": "6"
+ },
+ "numba_threads": 6,
+ "chunks": 6,
+ "python": "3.12.8",
+ "numpy": "2.4.4",
+ "numba": "0.65.1",
+ "sha256_lif": "9c6fe7be4bc2aaed",
+ "sha256_script": "38242c987b97accd",
+ "variants": [
+  [
+   "known+eln0.25",
+   "known",
+   0.25
+  ]
+ ],
+ "eln_subsets": {},
+ "hz": [
+  100.0,
+  150.0
+ ],
+ "odor_sets": [
+  "glomeruli",
+  "library"
+ ],
+ "odors": {
+  "glomeruli": [
+   "D",
+   "DA1",
+   "DA2",
+   "DA3",
+   "DA4l",
+   "DA4m",
+   "DC1",
+   "DC2",
+   "DC3",
+   "DC4",
+   "DL1",
+   "DL2d",
+   "DL2v",
+   "DL3",
+   "DL4",
+   "DL5",
+   "DM1",
+   "DM2",
+   "DM3",
+   "DM4",
+   "DM5",
+   "DM6",
+   "DP1l",
+   "DP1m",
+   "V",
+   "VA1d",
+   "VA1v",
+   "VA2",
+   "VA3",
+   "VA4",
+   "VA5",
+   "VA6",
+   "VA7l",
+   "VA7m",
+   "VC1",
+   "VC2",
+   "VC3",
+   "VC4",
+   "VC5",
+   "VL1",
+   "VL2a",
+   "VL2p",
+   "VM1",
+   "VM2",
+   "VM3",
+   "VM4",
+   "VM5d",
+   "VM5v",
+   "VM6l",
+   "VM6m",
+   "VM6v",
+   "VM7d",
+   "VM7v"
+  ],
+  "library": [
+   "ester",
+   "vinegar",
+   "floral",
+   "green",
+   "sweet",
+   "aversive",
+   "food"
+  ]
+ },
+ "seeds": 2,
+ "ms": 500,
+ "limit": 0,
+ "live_min": 0.005,
+ "unclear_ln": "excitatory",
+ "subsets": {
+  "eln_counts": {
+   "ach": 71,
+   "mod": 52,
+   "gg": 27,
+   "other": 0
+  },
+  "eln_counts_by_nt": {
+   "acetylcholine": 71,
+   "serotonin": 38,
+   "gaba": 16,
+   "dopamine": 12,
+   "glutamate": 11,
+   "octopamine": 2
+  }
+ },
+ "check": {
+  "status": "skipped (needs a --variants variant, --hz 100, --odors test10, --ms 500)"
+ },
+ "outputs": [
+  "experiments/results_edge/odor-code-library/odor_code_plus_flywire_hz100-150_glomeruli-library.csv",
+  "experiments/results_edge/odor-code-library/odor_code_plus_flywire_hz100-150_glomeruli-library_overlap.csv",
+  "experiments/results_edge/odor-code-library/odor_code_plus_flywire_hz100-150_glomeruli-library_codes.npz"
+ ]
+}

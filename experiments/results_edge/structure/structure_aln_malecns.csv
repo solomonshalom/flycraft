@@ -1,0 +1,6 @@
+top_nt,known_nt,sign_shiu,sign_known,n,out_syn,out_syn_to_alpn,eln_scaled_under_shiu,eln_scaled_under_known
+acetylcholine,,+,+,137,701542.0,216510.0,True,True
+gaba,,-,-,115,399801.0,134948.0,False,False
+glutamate,,-,-,99,56106.0,29114.0,False,False
+octopamine,,+,+,2,7704.0,2158.0,True,True
+unclear,,+,+,67,230501.0,73239.0,True,True

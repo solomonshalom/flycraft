@@ -1,0 +1,6 @@
+check-against experiments/results/shuffle_malecns_all_min1+eln0.25_global.csv (kind shuffle)
+columns compared: n_driven, total_spikes, active_frac, frac_moved, DNa L, DNa R, GF jump, MDN back, DNp13 reject, aIPg aggr, vpoEN/DN accept, P1/pC1 male, pIP10 song cmd, feed MNs, MN9, PAM (reward DA), PPL1 (punish DA), KC, DN all
+reference model: variant all_min1+eln0.25, gain 1, noise 0 Hz, default numerics, window protocol
+condition 0 'intact' gain 1 intact: 30 rows compared (570 cells), 0 mismatches, 75 rows without a reference row
+condition 1 'rewire=global,shuffle=0' gain 1 global shuffle 0: 30 rows compared (570 cells), 0 mismatches, 75 rows without a reference row
+TOTAL: 1140 cells compared, 0 mismatches (tolerance 1e-09)

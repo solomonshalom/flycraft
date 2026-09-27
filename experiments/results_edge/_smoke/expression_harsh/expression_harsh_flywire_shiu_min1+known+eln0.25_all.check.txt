@@ -1,0 +1,71 @@
+check-against experiments/results/expression_probe_flywire_shiu_min1+known+eln0.25.csv: 30 rows (of 30 comparable rows; tonic [0.0, 10.0]; ref rows 180) x 21 columns, 274 mismatched cells (max |diff| 69923) -> MISMATCH  [note: --ms 200; the reference was run at 1000 ms]
+  MISMATCH active_frac: {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode drive ours 0.01310611283 ref 0.01570579111
+  MISMATCH active_frac: {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'both', 'seed': 0} mode drive ours 0.01318510858 ref 0.01556216247
+  MISMATCH active_frac: {'set': 'punish', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode drive ours 0.01310611283 ref 0.01570579111
+  MISMATCH active_frac: {'set': 'punish', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'both', 'seed': 0} mode drive ours 0.01318510858 ref 0.01556216247
+  MISMATCH active_frac: {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode bypass ours 0.01310611283 ref 0.01570579111
+  MISMATCH total_spikes: {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode drive ours 12385 ref 67129
+  MISMATCH total_spikes: {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'both', 'seed': 0} mode drive ours 14564 ref 76613
+  MISMATCH total_spikes: {'set': 'punish', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode drive ours 12385 ref 67129
+  MISMATCH total_spikes: {'set': 'punish', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'both', 'seed': 0} mode drive ours 14564 ref 76613
+  MISMATCH total_spikes: {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode bypass ours 12385 ref 67129
+  MISMATCH set MBONs Hz: {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode drive ours 1.25 ref 0.5833333333
+  MISMATCH set MBONs Hz: {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'both', 'seed': 0} mode drive ours 4.583333333 ref 5.583333333
+  MISMATCH set MBONs Hz: {'set': 'punish', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode drive ours 5.25 ref 5.95
+  MISMATCH set MBONs Hz: {'set': 'punish', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'both', 'seed': 0} mode drive ours 9.75 ref 11
+  MISMATCH set MBONs Hz: {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode bypass ours 1.25 ref 0.5833333333
+  MISMATCH targets Hz: {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode drive ours 6.91954023 ref 7.222988506
+  MISMATCH targets Hz: {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'both', 'seed': 0} mode drive ours 8.551724138 ref 9.128735632
+  MISMATCH targets Hz: {'set': 'punish', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode drive ours 7.6171875 ref 7.787109375
+  MISMATCH targets Hz: {'set': 'punish', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'both', 'seed': 0} mode drive ours 9.609375 ref 10.15039062
+  MISMATCH targets Hz: {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode bypass ours 6.91954023 ref 7.222988506
+  MISMATCH target DNs Hz: {'set': 'punish', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode drive ours 7.321428571 ref 7.285714286
+  MISMATCH target DNs Hz: {'set': 'punish', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'both', 'seed': 0} mode drive ours 7.142857143 ref 7.214285714
+  MISMATCH target DNs Hz: {'set': 'punish', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode bypass ours 7.321428571 ref 7.285714286
+  MISMATCH target DNs Hz: {'set': 'punish', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'both', 'seed': 0} mode bypass ours 7.142857143 ref 7.214285714
+  MISMATCH target DNs Hz: {'set': 'punish', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode kick-nodn ours 7.321428571 ref 7.285714286
+  MISMATCH DNa L: {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode drive ours 27.5 ref 22.5
+  MISMATCH DNa L: {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'both', 'seed': 0} mode drive ours 32.5 ref 34.5
+  MISMATCH DNa L: {'set': 'punish', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode drive ours 27.5 ref 22.5
+  MISMATCH DNa L: {'set': 'punish', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'both', 'seed': 0} mode drive ours 32.5 ref 34.5
+  MISMATCH DNa L: {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode bypass ours 27.5 ref 22.5
+  MISMATCH DNa R: {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode drive ours 15 ref 16
+  MISMATCH DNa R: {'set': 'punish', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode drive ours 15 ref 16
+  MISMATCH DNa R: {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode bypass ours 15 ref 16
+  MISMATCH DNa R: {'set': 'punish', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode bypass ours 15 ref 16
+  MISMATCH DNa R: {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode kick-nodn ours 15 ref 16
+  MISMATCH GF jump: {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'both', 'seed': 0} mode drive ours 0 ref 1
+  MISMATCH GF jump: {'set': 'punish', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'both', 'seed': 0} mode drive ours 0 ref 1
+  MISMATCH GF jump: {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'both', 'seed': 0} mode bypass ours 0 ref 1
+  MISMATCH GF jump: {'set': 'punish', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'both', 'seed': 0} mode bypass ours 0 ref 1
+  MISMATCH GF jump: {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'both', 'seed': 0} mode kick-nodn ours 0 ref 1
+  MISMATCH DN all: {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode drive ours 1.243284728 ref 1.433614735
+  MISMATCH DN all: {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'both', 'seed': 0} mode drive ours 0.9785111282 ref 1.095932464
+  MISMATCH DN all: {'set': 'punish', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode drive ours 1.243284728 ref 1.433614735
+  MISMATCH DN all: {'set': 'punish', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'both', 'seed': 0} mode drive ours 0.9785111282 ref 1.095932464
+  MISMATCH DN all: {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode bypass ours 1.243284728 ref 1.433614735
+  MISMATCH MBON: {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode drive ours 3.229166667 ref 3.208333333
+  MISMATCH MBON: {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'both', 'seed': 0} mode drive ours 5.260416667 ref 5.885416667
+  MISMATCH MBON: {'set': 'punish', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode drive ours 3.229166667 ref 3.208333333
+  MISMATCH MBON: {'set': 'punish', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'both', 'seed': 0} mode drive ours 5.260416667 ref 5.885416667
+  MISMATCH MBON: {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode bypass ours 3.229166667 ref 3.208333333
+  MISMATCH KC: {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode drive ours 0.6557852038 ref 0.6727834653
+  MISMATCH KC: {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'both', 'seed': 0} mode drive ours 1.007340158 ref 1.109329728
+  MISMATCH KC: {'set': 'punish', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode drive ours 0.6557852038 ref 0.6727834653
+  MISMATCH KC: {'set': 'punish', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'both', 'seed': 0} mode drive ours 1.007340158 ref 1.109329728
+  MISMATCH KC: {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode bypass ours 0.6557852038 ref 0.6727834653
+  MISMATCH PPL1 (punish DA): {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode drive ours 12.1875 ref 12.4375
+  MISMATCH PPL1 (punish DA): {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'both', 'seed': 0} mode drive ours 14.375 ref 16.4375
+  MISMATCH PPL1 (punish DA): {'set': 'punish', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode drive ours 12.1875 ref 12.4375
+  MISMATCH PPL1 (punish DA): {'set': 'punish', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'both', 'seed': 0} mode drive ours 14.375 ref 16.4375
+  MISMATCH PPL1 (punish DA): {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode bypass ours 12.1875 ref 12.4375
+  MISMATCH PAM (reward DA): {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode drive ours 0.08143322476 ref 0.05863192182
+  MISMATCH PAM (reward DA): {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'both', 'seed': 0} mode drive ours 0.1140065147 ref 0.1433224756
+  MISMATCH PAM (reward DA): {'set': 'punish', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode drive ours 0.08143322476 ref 0.05863192182
+  MISMATCH PAM (reward DA): {'set': 'punish', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'both', 'seed': 0} mode drive ours 0.1140065147 ref 0.1433224756
+  MISMATCH PAM (reward DA): {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode bypass ours 0.08143322476 ref 0.05863192182
+  MISMATCH approach (L-R): {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode drive ours 12.5 ref 6.5
+  MISMATCH approach (L-R): {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'both', 'seed': 0} mode drive ours 27.5 ref 29.5
+  MISMATCH approach (L-R): {'set': 'punish', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode drive ours 12.5 ref 6.5
+  MISMATCH approach (L-R): {'set': 'punish', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'both', 'seed': 0} mode drive ours 27.5 ref 29.5
+  MISMATCH approach (L-R): {'set': 'reward', 'tonic_hz': 0.0, 'mbons': 'intact', 'odor': 'L', 'seed': 0} mode bypass ours 12.5 ref 6.5

@@ -1,0 +1,95 @@
+"""Shared helpers for the edge-case suite (RESEARCH_NOTES 23). Nothing here writes into experiments/results/.
+
+  safe_out(path)          -> (tmp, final): refuses any path inside experiments/results/, creates the parent directory;
+                             write to tmp, then call finish(tmp, final) so a killed run never leaves a half file
+  finish(tmp, final)      -> atomic rename
+  sidecar(path, extra)    -> writes <path>.json with argv, cwd, FLYBRAIN_* variables, thread counts, versions and the
+                             sha256 of lif.py and of the calling script, so every edge result names what made it
+  benchmark constants     -> the neuron ids of experiments/benchmark.py (Shiu et al.'s own ids), copied here because
+                             benchmark.py runs on import; checked against benchmark.py by check_constants()
+"""
+from __future__ import annotations
+
+import ast, hashlib, json, os, sys, time
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+EXP = os.path.dirname(HERE)
+ROOT = os.path.dirname(EXP)
+RESULTS = os.path.join(EXP, "results")
+EDGE_RESULTS = os.path.join(EXP, "results_edge")
+for p in (EXP, os.path.join(ROOT, "brain")):
+    if p not in sys.path:
+        sys.path.insert(0, p)
+
+
+def _inside(path, parent):
+    path, parent = os.path.realpath(path), os.path.realpath(parent)
+    return path == parent or path.startswith(parent + os.sep)
+
+
+def safe_out(path):
+    if _inside(path, RESULTS):
+        raise SystemExit(f"refusing to write into experiments/results/: {path}")
+    d = os.path.dirname(os.path.abspath(path))
+    os.makedirs(d, exist_ok=True)
+    base, ext = os.path.splitext(path)
+    return f"{base}.tmp{ext}", path
+
+
+def finish(tmp, final):
+    os.replace(tmp, final)
+    return final
+
+
+def _sha(path):
+    try:
+        with open(path, "rb") as f:
+            return hashlib.sha256(f.read()).hexdigest()[:16]
+    except OSError:
+        return None
+
+
+def sidecar(path, extra=None):
+    import numpy, numba
+    info = {
+        "written": time.strftime("%Y-%m-%d %H:%M:%S"),
+        "argv": sys.argv, "cwd": os.getcwd(),
+        "env": {k: v for k, v in os.environ.items() if k.startswith("FLYBRAIN_") or k in ("NUMBA_NUM_THREADS",)},
+        "numba_threads": numba.get_num_threads(), "chunks": min(numba.get_num_threads(), 8),
+        "python": sys.version.split()[0], "numpy": numpy.__version__, "numba": numba.__version__,
+        "sha256_lif": _sha(os.path.join(ROOT, "brain", "flybrain", "lif.py")),
+        "sha256_script": _sha(os.path.abspath(sys.argv[0])) if sys.argv and sys.argv[0] else None,
+    }
+    if extra:
+        info.update(extra)
+    tmp, final = safe_out(os.path.splitext(path)[0] + ".json")
+    with open(tmp, "w") as f:
+        json.dump(info, f, indent=1, default=str)
+    finish(tmp, final)
+    return final
+
+
+# ---- Shiu et al.'s neuron ids, as in experiments/benchmark.py (FlyWire v783 root ids) ----
+SUGAR_L = [720575940620589838, 720575940631147148, 720575940608305161, 720575940629388135, 720575940630968335, 720575940606801282, 720575940617398502, 720575940616167218, 720575940620296641, 720575940627961104]
+BITTER = [720575940621778381, 720575940602353632, 720575940617094208, 720575940619197093, 720575940626287336, 720575940618600651, 720575940627692048, 720575940630195909, 720575940646212996, 720575940610483162, 720575940645743412, 720575940627578156, 720575940622298631, 720575940621008895, 720575940629146711, 720575940610259370, 720575940610481370, 720575940619028208, 720575940614281266, 720575940613061118, 720575940604027168]
+WATER = [720575940612950568, 720575940631898285, 720575940606002609, 720575940612579053, 720575940622902535, 720575940616177458, 720575940660292225, 720575940622486922, 720575940613786774, 720575940629852866, 720575940625861168, 720575940613996959, 720575940617857694, 720575940644965399, 720575940625203504, 720575940630553415, 720575940635172191, 720575940634796536]
+JON_CE = [720575940619341105, 720575940630122015, 720575940611061526, 720575940615848788, 720575940628444667, 720575940627941431, 720575940632449619, 720575940650244342, 720575940631866508, 720575940638681845, 720575940628978450, 720575940609522461, 720575940621442224, 720575940602506208, 720575940629022149, 720575940627109991, 720575940630020111, 720575940615986459, 720575940618684481, 720575940620382889, 720575940630080071, 720575940626565455, 720575940630319671, 720575940602720940, 720575940630564179, 720575940637632419, 720575940615809349, 720575940626042149, 720575940637054835, 720575940602132509, 720575940614188149, 720575940616951124, 720575940628101126, 720575940629055721, 720575940616589878, 720575940622449388, 720575940614427195, 720575940625797617, 720575940638664437, 720575940618467195, 720575940621729757, 720575940613971485, 720575940627585688, 720575940629650997, 720575940630059847, 720575940608742409, 720575940614351477, 720575940633153375, 720575940622937528, 720575940604753437, 720575940611783464, 720575940618599872, 720575940609541917, 720575940637410869, 720575940630070343, 720575940621397417, 720575940614035485, 720575940610018266, 720575940626307902, 720575940634634606, 720575940614060829, 720575940624799290, 720575940641921421, 720575940623298559, 720575940625559358, 720575940629138959, 720575940621625597, 720575940625962568, 720575940632767383, 720575940624915230]
+JON_F = [720575940606239243, 720575940626956777, 720575940604973746, 720575940622222856, 720575940642517284, 720575940629719404, 720575940616613022, 720575940604299454, 720575940615473186, 720575940622217992, 720575940606800341, 720575940629267498, 720575940637366335, 720575940624224408, 720575940609543197, 720575940633364179, 720575940629502009, 720575940606431189, 720575940625733960, 720575940638529525, 720575940617524053, 720575940628935564, 720575940624308355, 720575940631170346, 720575940627704375, 720575940625885512, 720575940614929245, 720575940647493241, 720575940618888368, 720575940625087546, 720575940606657493, 720575940617273560, 720575940640591861, 720575940639410035, 720575940621532413, 720575940627523584, 720575940621521917, 720575940621097398, 720575940625915338, 720575940606222428, 720575940627868471, 720575940622179497, 720575940608297774, 720575940614026269, 720575940613012959, 720575940628100614, 720575940606611401, 720575940628649465, 720575940610008217, 720575940623791152, 720575940625571240, 720575940634923621, 720575940609530653, 720575940635968745, 720575940625703434, 720575940613105311, 720575940629386819, 720575940623077389, 720575940625763015, 720575940628359017]
+MN9_R = [720575940645521262]
+ABN1 = [720575940630907434]
+
+
+def check_constants():
+    """Assert the ids above are still those of experiments/benchmark.py (parsed, never imported: it runs on import)."""
+    tree = ast.parse(open(os.path.join(EXP, "benchmark.py")).read())
+    found = {}
+    for node in tree.body:
+        if isinstance(node, ast.Assign):
+            for t in node.targets:
+                if isinstance(t, ast.Name) and t.id in ("SUGAR_L", "BITTER", "WATER", "JON_CE", "JON_F", "MN9_R", "ABN1"):
+                    found[t.id] = ast.literal_eval(node.value)
+    here = globals()
+    bad = [k for k, v in found.items() if here[k] != v]
+    if bad or len(found) != 7:
+        raise SystemExit(f"edge constants differ from benchmark.py: {bad or sorted(found)}")
+    return True

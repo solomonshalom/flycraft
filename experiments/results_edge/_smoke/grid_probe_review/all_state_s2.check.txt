@@ -1,0 +1,5 @@
+check-against experiments/results/social_probe_flywire_shiu_min1+known+eln0.25_noise0.csv (kind social_probe)
+columns compared: n_driven, total_spikes, active_frac, DNa L, DNa R, DNp09, MDN back, GF jump, DN all, pC1a recept, pC1b/c, pC1d/e aggr, aIPg aggr, aSP-g, vpoEN/DN accept, DNp13 reject, oviDN egg, mAL, SAG, IPC, feed MNs, MN9, PAM (reward DA), PPL1 (punish DA), MBON, KC, aSP22
+reference model: variant shiu_min1+known+eln0.25, gain 1, noise 0 Hz, default numerics, window protocol
+condition 0 'base' gain 1 intact: 60 rows compared (1620 cells), 0 mismatches, 12 rows without a reference row
+TOTAL: 1620 cells compared, 0 mismatches (tolerance 1e-09)

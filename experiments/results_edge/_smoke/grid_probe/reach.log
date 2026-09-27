@@ -1,0 +1,167 @@
+grid_probe: 1 condition(s), presets ['decider_reach'], protocol window, seeds 1, 300 ms
+  condition 0 {'label': 'base', 'conn': 'shiu', 'min_syn': 1, 'min_syn_mem': None, 'signs': 'known', 'eln': 0.25, 'unclear': 'excitatory', 'gain': 1.0, 'hz': 100.0, 'dt': 0.2, 't_ref': 2.2, 'delay': 1.8, 'legacy': False, 'noise_hz': 0.0, 'eps_v': 0.01, 'eps_g': 0.001, 'kick_mv': 68.75, 'rewire': 'none', 'shuffle': -1}
+Connectome(flywire/shiu_min1+known+eln0.25: 139248 neurons, 15090883 connections, 54161396 synapses, w_syn_scale=1.000, signs=known (11010 flipped), eLN x0.25 (150 neurons))
+[decider_reach] pC1a (2 neurons, 824 excitatory input synapses): top-5 presynaptic types
+    1. AN_SMP_2           n=  2 (2 presynaptic)  +W    387 syn (47.0 %)  -W     0  sign +
+    2. AN_FLA_SMP_2       n=  2 (2 presynaptic)  +W     49 syn ( 5.9 %)  -W     0  sign +
+    3. AN_SMP_1           n=  5 (1 presynaptic)  +W     38 syn ( 4.6 %)  -W   -51  sign mixed(1+/4-)
+    4. DNp37              n=  2 (2 presynaptic)  +W     36 syn ( 4.4 %)  -W     0  sign +
+    5. SMP157             n=  2 (2 presynaptic)  +W     33 syn ( 4.0 %)  -W     0  sign +
+[decider_reach] pC1b (2 neurons, 1638 excitatory input synapses): top-5 presynaptic types
+    1. AN_SMP_2           n=  2 (2 presynaptic)  +W    312 syn (19.0 %)  -W     0  sign +
+    2. FLA101f_c          n=  6 (6 presynaptic)  +W    159 syn ( 9.7 %)  -W     0  sign +
+    3. pC1a               n=  2 (2 presynaptic)  +W    114 syn ( 7.0 %)  -W     0  sign +
+    4. CB2636             n=  6 (6 presynaptic)  +W    105 syn ( 6.4 %)  -W     0  sign +
+    5. CB1024             n=  6 (6 presynaptic)  +W     54 syn ( 3.3 %)  -W     0  sign +
+[decider_reach] pC1c (2 neurons, 2324 excitatory input synapses): top-5 presynaptic types
+    1. pC1a               n=  2 (2 presynaptic)  +W    269 syn (11.6 %)  -W     0  sign +
+    2. AVLP567            n=  4 (4 presynaptic)  +W    198 syn ( 8.5 %)  -W     0  sign +
+    3. AN_SMP_2           n=  2 (2 presynaptic)  +W    166 syn ( 7.1 %)  -W     0  sign +
+    4. CB4244             n= 20 (19 presynaptic)  +W    140 syn ( 6.0 %)  -W     0  sign +
+    5. SMP510a            n=  2 (2 presynaptic)  +W     73 syn ( 3.1 %)  -W     0  sign +
+[decider_reach] pC1d (2 neurons, 3387 excitatory input synapses): top-5 presynaptic types
+    1. SIP201f            n= 10 (10 presynaptic)  +W    187 syn ( 5.5 %)  -W     0  sign +
+    2. CB2131             n=  7 (7 presynaptic)  +W    179 syn ( 5.3 %)  -W     0  sign +
+    3. AVLP297            n=  9 (9 presynaptic)  +W    165 syn ( 4.9 %)  -W     0  sign +
+    4. AOTU032,AOTU034    n= 12 (9 presynaptic)  +W    130 syn ( 3.8 %)  -W     0  sign +
+    5. AOTU008a           n=  8 (8 presynaptic)  +W    122 syn ( 3.6 %)  -W     0  sign +
+[decider_reach] pC1e (2 neurons, 2020 excitatory input synapses): top-5 presynaptic types
+    1. AVLP297            n=  9 (9 presynaptic)  +W    132 syn ( 6.5 %)  -W     0  sign +
+    2. SMP312             n=  5 (5 presynaptic)  +W    125 syn ( 6.2 %)  -W     0  sign +
+    3. SMP339             n=  2 (2 presynaptic)  +W     73 syn ( 3.6 %)  -W     0  sign +
+    4. CB2131             n=  7 (7 presynaptic)  +W     63 syn ( 3.1 %)  -W     0  sign +
+    5. CB3862             n=  3 (3 presynaptic)  +W     61 syn ( 3.0 %)  -W     0  sign +
+[decider_reach] aIPg (23 neurons, 5572 excitatory input synapses): top-5 presynaptic types
+    1. pC1d               n=  2 (2 presynaptic)  +W    822 syn (14.8 %)  -W     0  sign +
+    2. pC1e               n=  2 (2 presynaptic)  +W    284 syn ( 5.1 %)  -W     0  sign +
+    3. SIP201f            n= 10 (10 presynaptic)  +W    196 syn ( 3.5 %)  -W     0  sign +
+    4. PVLP012            n=  4 (4 presynaptic)  +W    181 syn ( 3.2 %)  -W     0  sign +
+    5. CB2143             n=  6 (6 presynaptic)  +W    154 syn ( 2.8 %)  -W     0  sign +
+[decider_reach] vpoDN (DNp37) (2 neurons, 1186 excitatory input synapses): top-5 presynaptic types
+    1. pC1a               n=  2 (2 presynaptic)  +W    382 syn (32.2 %)  -W     0  sign +
+    2. vpoEN              n=  4 (4 presynaptic)  +W    169 syn (14.2 %)  -W     0  sign +
+    3. SMP157             n=  2 (2 presynaptic)  +W    111 syn ( 9.4 %)  -W     0  sign +
+    4. pC1c               n=  2 (2 presynaptic)  +W    106 syn ( 8.9 %)  -W     0  sign +
+    5. AVLP297            n=  9 (7 presynaptic)  +W     69 syn ( 5.8 %)  -W     0  sign +
+[decider_reach] vpoEN (4 neurons, 2691 excitatory input synapses): top-5 presynaptic types
+    1. CB1484             n=  6 (6 presynaptic)  +W    704 syn (26.2 %)  -W     0  sign +
+    2. CB2633             n=  4 (4 presynaptic)  +W    278 syn (10.3 %)  -W     0  sign +
+    3. CB1869             n=  3 (3 presynaptic)  +W    184 syn ( 6.8 %)  -W     0  sign +
+    4. CB2449             n=  6 (6 presynaptic)  +W    140 syn ( 5.2 %)  -W     0  sign +
+    5. AN_AVLP_12         n=  2 (2 presynaptic)  +W    126 syn ( 4.7 %)  -W     0  sign +
+[decider_reach] oviDN (6 neurons, 1235 excitatory input synapses): top-5 presynaptic types
+    1. SMP550             n=  2 (2 presynaptic)  +W    409 syn (33.1 %)  -W     0  sign +
+    2. aSP-f1A,aSP-f1B,aSP-f2 n= 13 (10 presynaptic)  +W     48 syn ( 3.9 %)  -W     0  sign +
+    3. SLP212a            n=  2 (2 presynaptic)  +W     44 syn ( 3.6 %)  -W     0  sign +
+    4. FLA101f_c          n=  6 (6 presynaptic)  +W     33 syn ( 2.7 %)  -W     0  sign +
+    5. aSP-f3             n=  8 (7 presynaptic)  +W     32 syn ( 2.6 %)  -W     0  sign +
+108 drives x 1 seeds; readouts: DNa L 2, DNa R 2, DNp09 2, MDN back 4, GF jump 2, DN all 1303, pC1a recept 2, pC1b/c 4, pC1d/e aggr 4, aIPg aggr 23, aSP-g 23, vpoEN/DN accept 6, DNp13 reject 2, oviDN egg 6, mAL 77, SAG 2, IPC 18, feed MNs 52, MN9 1, PAM (reward DA) 307, PPL1 (punish DA) 16, MBON 96, KC 5177, aSP22 2, aBN1 1, vpoEN 4, vpoDN (DNp37) 2, pC1a 2, pC1b 2, pC1c 2, pC1d 2, pC1e 2, oviDNa 4, oviDNb 2, oviIN 2, DNp13 L 1, DNp13 R 1, MN9 both 1
+base                       pC1a <- AN_SMP_2@30                            act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a  20.0 pC1d/e   1.7 vpoEN/DN   5.6 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (4s)
+base                       pC1a <- AN_FLA_SMP_2@30                        act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (4s)
+base                       pC1a <- AN_SMP_1@30                            act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (4s)
+base                       pC1a <- DNp37@30                               act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN  10.6 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (4s)
+base                       pC1a <- SMP157@30                              act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (4s)
+base                       pC1a <- top5@30                                act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a  30.0 pC1d/e   5.8 vpoEN/DN  16.7 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (4s)
+base                       pC1a <- AN_SMP_2@100                           act  0.1% | DNa   1.7 DNa   6.7 GF   0.0 MDN   0.0 DNp13   0.0 pC1a  68.3 pC1d/e   9.2 vpoEN/DN  20.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (4s)
+base                       pC1a <- AN_FLA_SMP_2@100                       act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (4s)
+base                       pC1a <- AN_SMP_1@100                           act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (4s)
+base                       pC1a <- DNp37@100                              act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   3.3 vpoEN/DN  30.6 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (4s)
+base                       pC1a <- SMP157@100                             act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   1.7 vpoEN/DN   5.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.2  (4s)
+base                       pC1a <- top5@100                               act  0.1% | DNa   0.0 DNa  13.3 GF   0.0 MDN   0.0 DNp13   0.0 pC1a  68.3 pC1d/e  28.3 vpoEN/DN  44.4 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.6  (4s)
+base                       pC1b <- AN_SMP_2@30                            act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a  20.0 pC1d/e   1.7 vpoEN/DN   5.6 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (4s)
+base                       pC1b <- FLA101f_c@30                           act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (4s)
+base                       pC1b <- pC1a@30                                act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a  31.7 pC1d/e   1.7 vpoEN/DN   7.2 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (4s)
+base                       pC1b <- CB2636@30                              act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (4s)
+base                       pC1b <- CB1024@30                              act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (4s)
+base                       pC1b <- top5@30                                act  0.1% | DNa   0.0 DNa   1.7 GF   0.0 MDN   0.0 DNp13   0.0 pC1a  51.7 pC1d/e   3.3 vpoEN/DN  14.4 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (4s)
+base                       pC1b <- AN_SMP_2@100                           act  0.1% | DNa   1.7 DNa   6.7 GF   0.0 MDN   0.0 DNp13   0.0 pC1a  68.3 pC1d/e   9.2 vpoEN/DN  20.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (4s)
+base                       pC1b <- FLA101f_c@100                          act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (4s)
+base                       pC1b <- pC1a@100                               act  0.1% | DNa   0.0 DNa   3.3 GF   0.0 MDN   0.0 DNp13   0.0 pC1a  91.7 pC1d/e   8.3 vpoEN/DN  22.2 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (4s)
+base                       pC1b <- CB2636@100                             act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (4s)
+base                       pC1b <- CB1024@100                             act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (4s)
+base                       pC1b <- top5@100                               act  0.1% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a  90.0 pC1d/e   2.5 vpoEN/DN  22.2 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (4s)
+base                       pC1c <- pC1a@30                                act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a  31.7 pC1d/e   1.7 vpoEN/DN   7.2 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (4s)
+base                       pC1c <- AVLP567@30                             act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (4s)
+base                       pC1c <- AN_SMP_2@30                            act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a  20.0 pC1d/e   1.7 vpoEN/DN   5.6 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (4s)
+base                       pC1c <- CB4244@30                              act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (4s)
+base                       pC1c <- SMP510a@30                             act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (4s)
+base                       pC1c <- top5@30                                act  0.1% | DNa   0.0 DNa   3.3 GF   0.0 MDN   0.0 DNp13   0.0 pC1a  38.3 pC1d/e   0.0 vpoEN/DN  11.7 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (4s)
+base                       pC1c <- pC1a@100                               act  0.1% | DNa   0.0 DNa   3.3 GF   0.0 MDN   0.0 DNp13   0.0 pC1a  91.7 pC1d/e   8.3 vpoEN/DN  22.2 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (4s)
+base                       pC1c <- AVLP567@100                            act  0.1% | DNa   6.7 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   1.1 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (4s)
+base                       pC1c <- AN_SMP_2@100                           act  0.1% | DNa   1.7 DNa   6.7 GF   0.0 MDN   0.0 DNp13   0.0 pC1a  68.3 pC1d/e   9.2 vpoEN/DN  20.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (4s)
+base                       pC1c <- CB4244@100                             act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (4s)
+base                       pC1c <- SMP510a@100                            act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (4s)
+base                       pC1c <- top5@100                               act  0.2% | DNa   1.7 DNa   3.3 GF   0.0 MDN   0.0 DNp13   0.0 pC1a 101.7 pC1d/e   0.0 vpoEN/DN  27.8 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.4  (4s)
+base                       pC1d <- SIP201f@30                             act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   2.5 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (4s)
+base                       pC1d <- CB2131@30                              act  0.1% | DNa   5.0 DNa   8.3 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   1.7 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (5s)
+base                       pC1d <- AVLP297@30                             act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.8 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (5s)
+base                       pC1d <- AOTU032,AOTU034@30                     act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (5s)
+base                       pC1d <- AOTU008a@30                            act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (5s)
+base                       pC1d <- top5@30                                act  0.1% | DNa   6.7 DNa  10.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e  27.5 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (5s)
+base                       pC1d <- SIP201f@100                            act  0.1% | DNa   0.0 DNa  13.3 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e  19.2 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (5s)
+base                       pC1d <- CB2131@100                             act  0.2% | DNa  33.3 DNa  20.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e  18.3 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (5s)
+base                       pC1d <- AVLP297@100                            act  0.1% | DNa   0.0 DNa   3.3 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e  23.3 vpoEN/DN   1.1 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (5s)
+base                       pC1d <- AOTU032,AOTU034@100                    act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   7.5 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (5s)
+base                       pC1d <- AOTU008a@100                           act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   6.7 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (5s)
+base                       pC1d <- top5@100                               act  0.4% | DNa  40.0 DNa  40.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e  70.8 vpoEN/DN   1.1 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (5s)
+base                       pC1e <- AVLP297@30                             act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.8 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (5s)
+base                       pC1e <- SMP312@30                              act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.8 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (5s)
+base                       pC1e <- SMP339@30                              act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (5s)
+base                       pC1e <- CB2131@30                              act  0.1% | DNa   5.0 DNa   8.3 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   1.7 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (5s)
+base                       pC1e <- CB3862@30                              act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (5s)
+base                       pC1e <- top5@30                                act  0.1% | DNa  13.3 DNa  15.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e  20.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (5s)
+base                       pC1e <- AVLP297@100                            act  0.1% | DNa   0.0 DNa   3.3 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e  23.3 vpoEN/DN   1.1 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (5s)
+base                       pC1e <- SMP312@100                             act  0.0% | DNa   5.0 DNa   5.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   5.8 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (5s)
+base                       pC1e <- SMP339@100                             act  0.0% | DNa   0.0 DNa   0.0 GF   6.7 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.8 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (5s)
+base                       pC1e <- CB2131@100                             act  0.2% | DNa  33.3 DNa  20.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e  18.3 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (5s)
+base                       pC1e <- CB3862@100                             act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.8 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (5s)
+base                       pC1e <- top5@100                               act  0.4% | DNa  50.0 DNa  28.3 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e  63.3 vpoEN/DN   1.7 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (6s)
+base                       aIPg <- pC1d@30                                act  0.0% | DNa   1.7 DNa   6.7 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e  15.8 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (6s)
+base                       aIPg <- pC1e@30                                act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e  15.8 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (6s)
+base                       aIPg <- SIP201f@30                             act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   2.5 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (6s)
+base                       aIPg <- PVLP012@30                             act  0.2% | DNa   6.7 DNa  25.0 GF   0.0 MDN   0.8 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (6s)
+base                       aIPg <- CB2143@30                              act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (6s)
+base                       aIPg <- top5@30                                act  0.2% | DNa   8.3 DNa  25.0 GF   3.3 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e  33.3 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (6s)
+base                       aIPg <- pC1d@100                               act  0.1% | DNa  10.0 DNa  18.3 GF   3.3 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e  45.8 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (6s)
+base                       aIPg <- pC1e@100                               act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e  45.8 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (6s)
+base                       aIPg <- SIP201f@100                            act  0.1% | DNa   0.0 DNa  13.3 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e  19.2 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (6s)
+base                       aIPg <- PVLP012@100                            act  0.4% | DNa  38.3 DNa  23.3 GF   0.0 MDN   6.7 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (6s)
+base                       aIPg <- CB2143@100                             act  0.1% | DNa   0.0 DNa  11.7 GF   1.7 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   5.8 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (6s)
+base                       aIPg <- top5@100                               act  0.5% | DNa  15.0 DNa  48.3 GF  10.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e 100.8 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   1.0  (6s)
+base                       vpoDN (DNp37) <- pC1a@30                       act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a  31.7 pC1d/e   1.7 vpoEN/DN   7.2 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (6s)
+base                       vpoDN (DNp37) <- vpoEN@30                      act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13  13.3 pC1a   0.0 pC1d/e   0.0 vpoEN/DN  23.9 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (6s)
+base                       vpoDN (DNp37) <- SMP157@30                     act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (6s)
+base                       vpoDN (DNp37) <- pC1c@30                       act  0.0% | DNa   0.0 DNa   1.7 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (6s)
+base                       vpoDN (DNp37) <- AVLP297@30                    act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.8 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (6s)
+base                       vpoDN (DNp37) <- top5@30                       act  0.1% | DNa   0.0 DNa   6.7 GF   0.0 MDN   0.0 DNp13  10.0 pC1a  43.3 pC1d/e  25.0 vpoEN/DN  39.4 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.2  (6s)
+base                       vpoDN (DNp37) <- pC1a@100                      act  0.1% | DNa   0.0 DNa   3.3 GF   0.0 MDN   0.0 DNp13   0.0 pC1a  91.7 pC1d/e   8.3 vpoEN/DN  22.2 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (6s)
+base                       vpoDN (DNp37) <- vpoEN@100                     act  0.1% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13  61.7 pC1a   0.0 pC1d/e   6.7 vpoEN/DN  70.6 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (6s)
+base                       vpoDN (DNp37) <- SMP157@100                    act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   1.7 vpoEN/DN   5.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.2  (6s)
+base                       vpoDN (DNp37) <- pC1c@100                      act  0.4% | DNa   8.3 DNa   6.7 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   3.3 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   7.5  (6s)
+base                       vpoDN (DNp37) <- AVLP297@100                   act  0.1% | DNa   0.0 DNa   3.3 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e  23.3 vpoEN/DN   1.1 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (7s)
+base                       vpoDN (DNp37) <- top5@100                      act  0.5% | DNa   6.7 DNa  11.7 GF   0.0 MDN   0.0 DNp13  48.3 pC1a 101.7 pC1d/e  50.0 vpoEN/DN  92.8 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   6.2  (7s)
+base                       vpoEN <- CB1484@30                             act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   8.3 pC1a   0.0 pC1d/e   0.0 vpoEN/DN  17.2 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (7s)
+base                       vpoEN <- CB2633@30                             act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.6 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (7s)
+base                       vpoEN <- CB1869@30                             act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (7s)
+base                       vpoEN <- CB2449@30                             act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (7s)
+base                       vpoEN <- AN_AVLP_12@30                         act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (7s)
+base                       vpoEN <- top5@30                               act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13  23.3 pC1a   0.0 pC1d/e   0.0 vpoEN/DN  29.4 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (7s)
+base                       vpoEN <- CB1484@100                            act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13  43.3 pC1a   0.0 pC1d/e   1.7 vpoEN/DN  46.7 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (7s)
+base                       vpoEN <- CB2633@100                            act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   1.7 pC1a   0.0 pC1d/e   0.0 vpoEN/DN  10.6 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (7s)
+base                       vpoEN <- CB1869@100                            act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   2.8 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (7s)
+base                       vpoEN <- CB2449@100                            act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (7s)
+base                       vpoEN <- AN_AVLP_12@100                        act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (7s)
+base                       vpoEN <- top5@100                              act  0.1% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13  63.3 pC1a   0.0 pC1d/e   3.3 vpoEN/DN  68.9 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (7s)
+base                       oviDN <- SMP550@30                             act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   5.0 feed   0.0 MN9   0.0 PPL1   0.0  (7s)
+base                       oviDN <- aSP-f1A,aSP-f1B,aSP-f2@30             act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (7s)
+base                       oviDN <- SLP212a@30                            act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (7s)
+base                       oviDN <- FLA101f_c@30                          act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (7s)
+base                       oviDN <- aSP-f3@30                             act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (7s)
+base                       oviDN <- top5@30                               act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   3.9 feed   0.0 MN9   0.0 PPL1   0.0  (7s)
+base                       oviDN <- SMP550@100                            act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN  16.1 feed   0.0 MN9   0.0 PPL1   0.0  (7s)
+base                       oviDN <- aSP-f1A,aSP-f1B,aSP-f2@100            act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (7s)
+base                       oviDN <- SLP212a@100                           act  0.4% | DNa  11.7 DNa   3.3 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   6.7  (7s)
+base                       oviDN <- FLA101f_c@100                         act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (7s)
+base                       oviDN <- aSP-f3@100                            act  0.0% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN   0.0 feed   0.0 MN9   0.0 PPL1   0.0  (7s)
+base                       oviDN <- top5@100                              act  0.2% | DNa   0.0 DNa   0.0 GF   0.0 MDN   0.0 DNp13   0.0 pC1a   0.0 pC1d/e   0.0 vpoEN/DN   0.0 oviDN  20.0 feed   0.0 MN9   0.0 PPL1   1.0  (7s)
+wrote experiments/results_edge/_smoke/grid_probe/reach.csv (108 rows, 7s)

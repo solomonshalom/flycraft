@@ -1,0 +1,30 @@
+kernel seed 0: 156645 spikes, 1.70% active, 1.3s  | brian2: 156491 spikes, 1.71% active, 2s
+kernel seed 1: 155532 spikes, 1.71% active, 1.2s  | brian2: 155532 spikes, 1.71% active, 2s
+kernel seed 2: 157054 spikes, 1.72% active, 1.3s  | brian2: 157054 spikes, 1.72% active, 2s
+
+group                n    brian2 Hz    kernel Hz
+in_grn_sugar       129    0.00±0.00    0.00±0.00
+in_grn_bitter       65    0.00±0.00    0.00±0.00
+in_orn_cva         205    0.00±0.00    0.00±0.00
+in_orn_food        267    0.00±0.00    0.00±0.00
+in_bristle        1417   81.99±0.25   81.99±0.25
+in_jo_sound        390    0.00±0.00    0.00±0.00
+in_jo_wind         484    0.00±0.00    0.00±0.00
+in_orn_co2          67    0.00±0.00    0.00±0.00
+out_feed            52   15.88±0.15   15.96±0.13
+out_turn_L           2    0.00±0.00    0.00±0.00
+out_turn_R           2    0.67±0.24    0.83±0.24
+out_jump             2    0.00±0.00    0.00±0.00
+out_back             4    0.00±0.00    0.00±0.00
+out_aggression      27    0.00±0.00    0.00±0.00
+out_dn_all        1303    8.03±0.05    8.03±0.05
+out_mb_kc         5177    0.00±0.00    0.00±0.00
+out_mb_dan         331    0.00±0.00    0.00±0.00
+out_mb_mbon         96    0.00±0.00    0.00±0.00
+out_DNp13            2   38.00±0.00   38.00±0.00
+out_PPL1            16    0.00±0.00    0.00±0.00
+out_PAM            307    0.00±0.00    0.00±0.00
+
+per-neuron mean-count correlation over 2446 neurons active in either: r = 0.9999
+active in brian2 only: 15   active in kernel only: 9   both: 2422
+largest per-neuron differences (idx, brian2, kernel): [(35730, 101.0, 97.33333333333333), (35267, 44.0, 46.333333333333336), (139245, 4.333333333333333, 6.666666666666667), (5134, 17.0, 19.333333333333332), (36313, 69.0, 66.66666666666667), (12788, 10.0, 12.0), (406, 8.333333333333334, 10.333333333333334), (36560, 9.333333333333334, 11.333333333333334), (34520, 49.333333333333336, 51.333333333333336), (36137, 86.33333333333333, 84.33333333333333)]

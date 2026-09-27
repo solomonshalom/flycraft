@@ -1,0 +1,7 @@
+variant,chamber,condition,excluded,trials,logs,trials_contact,contact_pct_mean,contact_pct_sd,longest_bout_s,excluded_trials
+specific,noise0.2,ff,none,5,10,3,11.217617965719231,14.877194926670866,15.05,
+specific,noise0.2,ff,placed,5,10,3,11.217617965719231,14.877194926670866,15.05,
+specific,noise0.2,ff,plan,5,10,3,11.217617965719231,14.877194926670866,15.05,
+specific,noise0.2,mf,none,5,5,4,1.2818567737172386,1.0996017654233203,1.3,
+specific,noise0.2,mf,placed,5,5,4,1.2818567737172386,1.0996017654233203,1.3,
+specific,noise0.2,mf,plan,5,5,4,1.2818567737172386,1.0996017654233203,1.3,

@@ -1,0 +1,5 @@
+check-against experiments/results/shuffle_flywire_shiu_min1+known+eln0.25_global.csv (kind shuffle)
+columns compared: n_driven, total_spikes, active_frac, frac_moved, DNa L, DNa R, GF jump, MDN back, DNp13 reject, pC1d/e aggr, aIPg aggr, pC1a recept, vpoEN/DN accept, feed MNs, MN9, PAM (reward DA), PPL1 (punish DA), KC, DN all
+condition 0 'intact' gain 1 intact: 1 rows compared (19 cells), 0 mismatches, 0 rows without a reference row
+condition 1 'rewire=global,shuffle=0' gain 1 global shuffle 0: 1 rows compared (19 cells), 0 mismatches, 0 rows without a reference row
+TOTAL: 38 cells compared, 0 mismatches (tolerance 1e-09)

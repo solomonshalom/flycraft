@@ -1,0 +1,4 @@
+seed,spikes_b2,spikes_kernel,counts_identical,neurons_count_differs,b2_list_matches_counts,kernel_list_matches_counts,masked_equals_unmasked,split_run_equals_whole,lists_identical,n_match,n_b2_only,n_kernel_only,kernel_wall_s,first_step,first_t_ms,first_neurons,first_margin_mv,first_class
+0,23512,23689,False,284,True,True,True,True,False,18949,4563,4740,0.335,6155.0,615.5,35413,2.7907379589464654e-06,near threshold (|margin| <= 0.01 mV)
+1,24215,24215,True,0,True,True,True,True,True,24215,0,0,0.362,,,,,
+2,24782,24782,True,0,True,True,True,True,False,24781,1,1,0.371,7075.0,707.5,33704,1.3206335346183096e-05,near threshold (|margin| <= 0.01 mV)

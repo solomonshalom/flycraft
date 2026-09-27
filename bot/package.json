@@ -1,0 +1,18 @@
+{
+  "name": "flycraft-bot",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Mineflayer body for a connectome-constrained fruit-fly brain",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "canvas": "^3.2.3",
+    "mineflayer": "^4.25.0",
+    "minimist": "^1.2.8",
+    "prismarine-viewer": "^1.33.0",
+    "vec3": "^0.1.10",
+    "ws": "^8.18.0"
+  }
+}

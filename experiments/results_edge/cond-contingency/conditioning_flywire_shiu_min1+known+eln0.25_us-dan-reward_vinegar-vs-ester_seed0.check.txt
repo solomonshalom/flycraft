@@ -1,0 +1,6 @@
+check-against experiments/results/conditioning_flywire_shiu_min1+known+eln0.25_us-dan-reward_vinegar-vs-ester_seed0.csv (modified 2026-09-27 03:16:33)
+run: experiments/edge/conditioning_edge.py --dataset flywire --signs known --eln 0.25 --us dan --seed 0 --out-dir experiments/results_edge/cond-contingency --skip-existing --valence reward --protocol forward --csp vinegar --csm ester --check-against experiments/results/conditioning_flywire_shiu_min1+known+eln0.25_us-dan-reward_vinegar-vs-ester_seed0.csv
+protocol forward, simulation as conditioning.py at defaults: yes; NUMBA_NUM_THREADS 6, 6 chunks
+conditioning_flywire_shiu_min1+known+eln0.25_us-dan-reward_vinegar-vs-ester_seed0.csv vs experiments/results/conditioning_flywire_shiu_min1+known+eln0.25_us-dan-reward_vinegar-vs-ester_seed0.csv: PASS; 80 cells compared, 0 differ, max |diff| 0; byte-identical yes
+conditioning_flywire_shiu_min1+known+eln0.25_us-dan-reward_vinegar-vs-ester_seed0_compartments.csv vs experiments/results/conditioning_flywire_shiu_min1+known+eln0.25_us-dan-reward_vinegar-vs-ester_seed0_compartments.csv: PASS; 35 cells compared, 0 differ, max |diff| 0; byte-identical yes
+CHECK: PASS (to the digit: yes)

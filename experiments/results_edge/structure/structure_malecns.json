@@ -1,0 +1,66 @@
+{
+ "written": "2026-09-27 08:25:48",
+ "argv": [
+  "experiments/edge/structure_probe.py",
+  "--dataset",
+  "malecns"
+ ],
+ "cwd": ".",
+ "env": {
+  "NUMBA_NUM_THREADS": "6"
+ },
+ "numba_threads": 6,
+ "chunks": 6,
+ "python": "3.12.8",
+ "numpy": "2.4.4",
+ "numba": "0.65.1",
+ "sha256_lif": "9c6fe7be4bc2aaed",
+ "sha256_script": "2f1db88e0f1140f4",
+ "variants": {
+  "known+eln0.25": {
+   "variant": "all_min1+eln0.25",
+   "signs": "shiu",
+   "eln": 0.25,
+   "n_sign_flipped": 0,
+   "n_eln": 206
+  },
+  "shiu": {
+   "variant": "all_min1",
+   "signs": "shiu",
+   "eln": 1.0,
+   "n_sign_flipped": 0,
+   "n_eln": 0
+  }
+ },
+ "checks": {
+  "route_sum_relerr": 3.967058277833572e-13,
+  "fwd_bwd_relerr": 6.779574116861331e-13,
+  "combo_additivity_relerr": 7.223943701679409e-15
+ },
+ "signflips": {},
+ "eln": {
+  "n_alln": 420,
+  "eln_shiu": 206,
+  "eln_known": 206,
+  "eln_shiu_by_top_nt": {
+   "acetylcholine": 137,
+   "unclear": 67,
+   "octopamine": 2
+  },
+  "eln_known_by_top_nt": {
+   "acetylcholine": 137,
+   "unclear": 67,
+   "octopamine": 2
+  },
+  "n_eln_apply_model_options[known+eln0.25]": 206
+ },
+ "n_self_connections": 99,
+ "files": [
+  "experiments/results_edge/structure/structure_paths_malecns.csv",
+  "experiments/results_edge/structure/structure_routes_malecns.csv",
+  "experiments/results_edge/structure/structure_state_malecns.csv",
+  "experiments/results_edge/structure/structure_aln_malecns.csv",
+  "experiments/results_edge/structure/structure_malecns.md"
+ ],
+ "wall_s": 59.8
+}

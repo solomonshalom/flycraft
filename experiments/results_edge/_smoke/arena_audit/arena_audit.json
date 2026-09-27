@@ -1,0 +1,49 @@
+{
+ "written": "2026-09-27 01:19:19",
+ "argv": [
+  "experiments/edge/arena_audit.py",
+  "--quick",
+  "--out-dir",
+  "experiments/results_edge/_smoke/arena_audit"
+ ],
+ "cwd": ".",
+ "env": {
+  "NUMBA_NUM_THREADS": "6"
+ },
+ "numba_threads": 6,
+ "chunks": 6,
+ "python": "3.12.8",
+ "numpy": "2.4.4",
+ "numba": "0.65.1",
+ "sha256_lif": "9c6fe7be4bc2aaed",
+ "sha256_script": "ed06df2b26d20db1",
+ "logs": 20,
+ "pairs": 10,
+ "shifts": 2000,
+ "seed": 0,
+ "quick": true,
+ "results": "release/pre_rerun_20260926/results",
+ "verdicts": {
+  "index_matches_paper_csv": true,
+  "digit_check": "2/2",
+  "longest_bout_trial": "off_ff_t4_noise0.2",
+  "longest_bout_chamber": "noise0.2",
+  "longest_bout_s": 15.05,
+  "longest_bout_dist_at_placement": 5.13,
+  "longest_bout_genuine": true,
+  "longest_bout_without_placed_s": 15.05,
+  "longest_bout_without_placed_first_reported_s": 15.05,
+  "longest_bout_without_placed_replication_s": NaN,
+  "longest_bout_without_plan_s": 15.05,
+  "lean_mf_farcorr_split": "3/2",
+  "lean_mf_farcorr_p": 1.0,
+  "lean_mf_farcorr_p_holm": 1.0,
+  "lean_mf_shift_within_P": 0.0305,
+  "lean_keep": false,
+  "lean_extra_chambers": [],
+  "series_comparable": {
+   "specific noise0.2 ff": true,
+   "specific noise0.2 mf": true
+  }
+ }
+}

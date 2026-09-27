@@ -1,0 +1,2 @@
+seed,spikes_b2,spikes_kernel,counts_identical,neurons_count_differs,b2_list_matches_counts,kernel_list_matches_counts,masked_equals_unmasked,split_run_equals_whole,lists_identical,n_match,n_b2_only,n_kernel_only,kernel_wall_s
+0,4465,4465,True,0,True,True,True,True,True,4465,0,0,0.06

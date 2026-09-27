@@ -1,0 +1,89 @@
+{
+ "written": "2026-09-27 04:23:40",
+ "argv": [
+  "experiments/edge/grid_probe.py",
+  "--dataset",
+  "flywire",
+  "--preset",
+  "matched_null",
+  "--seeds",
+  "3",
+  "--ms",
+  "1000",
+  "--out",
+  "experiments/results_edge/matched-null/matched_f.csv"
+ ],
+ "cwd": ".",
+ "env": {
+  "FLYBRAIN_SIGNS": "known",
+  "FLYBRAIN_ELN": "0.25",
+  "NUMBA_NUM_THREADS": "6"
+ },
+ "numba_threads": 6,
+ "chunks": 6,
+ "python": "3.12.8",
+ "numpy": "2.4.4",
+ "numba": "0.65.1",
+ "sha256_lif": "9c6fe7be4bc2aaed",
+ "sha256_script": "5597fa5189e27d67",
+ "load": {
+  "shiu_min1+known+eln0.25": {}
+ },
+ "frac_moved": {
+  "shiu_min1+known+eln0.25|none|-1": 0.0
+ },
+ "matched_null": {
+  "SAG": {
+   "n": 2,
+   "super_class": "ascending",
+   "pool": 1748,
+   "fallbacks": 0
+  },
+  "NPF": {
+   "n": 4,
+   "super_class": "central",
+   "pool": 26645,
+   "fallbacks": 0
+  },
+  "IPC": {
+   "n": 18,
+   "super_class": "endocrine",
+   "pool": 62,
+   "fallbacks": 0
+  }
+ },
+ "conditions": [
+  {
+   "label": "base",
+   "conn": "shiu",
+   "min_syn": 1,
+   "min_syn_mem": null,
+   "signs": "known",
+   "eln": 0.25,
+   "unclear": "excitatory",
+   "gain": 1.0,
+   "hz": 100.0,
+   "dt": 0.2,
+   "t_ref": 2.2,
+   "delay": 1.8,
+   "legacy": false,
+   "noise_hz": 0.0,
+   "eps_v": 0.01,
+   "eps_g": 0.001,
+   "kick_mv": 68.75,
+   "rewire": "none",
+   "shuffle": -1,
+   "cond_id": 0
+  }
+ ],
+ "presets": [
+  "matched_null"
+ ],
+ "protocol": "window",
+ "n_rows": 378,
+ "outputs": [
+  "experiments/results_edge/matched-null/matched_f.csv"
+ ],
+ "on_sched": null,
+ "off_sched": null
+}

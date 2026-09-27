@@ -1,0 +1,2 @@
+seed,spikes_b2,spikes_kernel,counts_identical,neurons_count_differs,b2_list_matches_counts,kernel_list_matches_counts,masked_equals_unmasked,split_run_equals_whole,lists_identical,n_match,n_b2_only,n_kernel_only,kernel_wall_s,first_step,first_t_ms,first_neurons,first_margin_mv,first_class
+0,4466,4465,False,1,True,True,True,True,False,4465,1,0,0.064,1999,199.9,43434,15.515533257543801,far (> 0.05 mV): semantic

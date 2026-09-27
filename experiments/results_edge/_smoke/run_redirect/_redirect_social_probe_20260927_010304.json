@@ -1,0 +1,47 @@
+{
+ "written": "2026-09-27 01:03:08",
+ "argv": [
+  "experiments/edge/run_redirect.py",
+  "--res",
+  "experiments/results_edge/_smoke/run_redirect",
+  "experiments/social_probe.py",
+  "--",
+  "--seeds",
+  "1",
+  "--ms",
+  "100",
+  "--out",
+  "experiments/results_edge/_smoke/run_redirect/s.csv"
+ ],
+ "cwd": ".",
+ "env": {
+  "FLYBRAIN_SIGNS": "known",
+  "FLYBRAIN_ELN": "0.25",
+  "NUMBA_NUM_THREADS": "6"
+ },
+ "numba_threads": 6,
+ "chunks": 6,
+ "python": "3.12.8",
+ "numpy": "2.4.4",
+ "numba": "0.65.1",
+ "sha256_lif": "9c6fe7be4bc2aaed",
+ "sha256_script": "116be781e7f88cd2",
+ "script": "experiments/social_probe.py",
+ "sha256_target": "105c88b6fa3503e2",
+ "script_args": [
+  "--seeds",
+  "1",
+  "--ms",
+  "100",
+  "--out",
+  "experiments/results_edge/_smoke/run_redirect/s.csv"
+ ],
+ "res": "experiments/results_edge/_smoke/run_redirect",
+ "sim": {},
+ "status": "ok",
+ "wall_s": 3.8,
+ "lif_params": [],
+ "files": [
+  "experiments/results_edge/_smoke/run_redirect/s.csv"
+ ]
+}

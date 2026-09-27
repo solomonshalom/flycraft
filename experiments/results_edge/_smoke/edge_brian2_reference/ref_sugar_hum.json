@@ -1,0 +1,44 @@
+{
+ "written": "2026-09-27 01:07:34",
+ "argv": [
+  "brain/tests/edge_brian2_reference.py",
+  "--conn",
+  "$TMPDIR//flycraft_brian2/flywire_export.npz",
+  "--drive",
+  "in_grn_sugar:100",
+  "--ms",
+  "200",
+  "--seeds",
+  "1",
+  "--dt",
+  "0.1",
+  "--noise-hz",
+  "0.5",
+  "--kick-mv",
+  "68.75",
+  "--record-times",
+  "--out",
+  "experiments/results_edge/_smoke/edge_brian2_reference/ref_sugar_hum.npz"
+ ],
+ "cwd": ".",
+ "env": {
+  "NUMBA_NUM_THREADS": "6"
+ },
+ "python": "3.12.8",
+ "numpy": "2.5.3",
+ "numba": null,
+ "sha256_lif": "9c6fe7be4bc2aaed",
+ "sha256_script": "6e40a186a943484f",
+ "brian2": "2.10.1",
+ "conn": "$TMPDIR/flycraft_brian2/flywire_export.npz",
+ "n": 139248,
+ "connections": 15090883,
+ "w_syn_mv": 0.275,
+ "kick": "68.75 mV fixed",
+ "spikes_per_seed": [
+  87098
+ ],
+ "wall_s": [
+  4.936430931091309
+ ]
+}

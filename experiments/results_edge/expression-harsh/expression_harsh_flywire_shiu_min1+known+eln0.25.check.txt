@@ -1,0 +1,2 @@
+check-against experiments/results/expression_probe_flywire_shiu_min1+known+eln0.25.csv: 108 rows (of 108 comparable rows; tonic [0.0, 10.0, 40.0]; ref rows 180) x 21 columns, 0 mismatched cells (max |diff| 0) -> MATCH TO THE DIGIT
+

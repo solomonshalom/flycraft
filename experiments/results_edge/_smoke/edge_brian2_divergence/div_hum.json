@@ -1,0 +1,133 @@
+{
+ "ref": "experiments/results_edge/_smoke/edge_brian2_reference/ref_sugar_hum.npz",
+ "conn": "$TMPDIR/flycraft_brian2/flywire_export.npz",
+ "dt": 0.1,
+ "ms": 200.0,
+ "drive": [
+  "in_grn_sugar:100"
+ ],
+ "gain": 1.0,
+ "w_syn_mv": 0.275,
+ "kick_mv": 68.75,
+ "noise_hz": 0.5,
+ "eps_v": 0.01,
+ "eps_g": 0.001,
+ "float64": false,
+ "chunks_T": 6,
+ "step_offset": 0,
+ "offset_calib_seed": 0,
+ "offset_hits": {
+  "-3": 849,
+  "-2": 749,
+  "-1": 799,
+  "0": 746,
+  "1": 766,
+  "2": 793,
+  "3": 792
+ },
+ "notes": [
+  "noise 0.5 Hz: the kernel and Brian2 draw the hum from different streams, spikes will not match",
+  "best offset -3 matched only 849 of 87098 spikes: using 0"
+ ],
+ "asserts_failed": [],
+ "seeds": [
+  {
+   "seed": 0,
+   "spikes_b2": 87098,
+   "spikes_kernel": 89440,
+   "counts_identical": false,
+   "neurons_count_differs": 27329,
+   "b2_list_matches_counts": true,
+   "kernel_list_matches_counts": true,
+   "masked_equals_unmasked": true,
+   "split_run_equals_whole": true,
+   "lists_identical": false,
+   "n_match": 746,
+   "n_b2_only": 86352,
+   "n_kernel_only": 88694,
+   "kernel_wall_s": 1.235,
+   "first_mismatch": {
+    "step": 1,
+    "t_ms": 0.1,
+    "b2_only": [
+     84341,
+     101650,
+     106914,
+     110750,
+     122615,
+     122626,
+     131245
+    ],
+    "kernel_only": [
+     15115,
+     47353,
+     79983,
+     82127,
+     104489,
+     118950
+    ],
+    "rerun_consistent": true,
+    "traced": [
+     {
+      "neuron": 15115,
+      "groups": [],
+      "side": "kernel only",
+      "margin_mv": -61.407107944496914,
+      "min_abs_margin_window": 7.0,
+      "v_int": 16.407107944496914,
+      "cls": "kick-driven (random stream or a kick discarded while refractory)",
+      "b2_spikes_rel": [],
+      "kernel_spikes_rel": [
+       0
+      ],
+      "trace_consistent": true
+     },
+     {
+      "neuron": 47353,
+      "groups": [
+       "in_grn_sugar"
+      ],
+      "side": "kernel only",
+      "margin_mv": -61.407107944496914,
+      "min_abs_margin_window": 7.0,
+      "v_int": 16.407107944496914,
+      "cls": "kick-driven (random stream or a kick discarded while refractory)",
+      "b2_spikes_rel": [],
+      "kernel_spikes_rel": [
+       0
+      ],
+      "trace_consistent": true
+     },
+     {
+      "neuron": 79983,
+      "groups": [],
+      "side": "kernel only",
+      "margin_mv": -61.407107944496914,
+      "min_abs_margin_window": 7.0,
+      "v_int": 16.407107944496914,
+      "cls": "kick-driven (random stream or a kick discarded while refractory)",
+      "b2_spikes_rel": [],
+      "kernel_spikes_rel": [
+       0
+      ],
+      "trace_consistent": true
+     },
+     {
+      "neuron": 82127,
+      "groups": [],
+      "side": "kernel only",
+      "margin_mv": -61.407107944496914,
+      "min_abs_margin_window": 7.0,
+      "v_int": 16.407107944496914,
+      "cls": "kick-driven (random stream or a kick discarded while refractory)",
+      "b2_spikes_rel": [],
+      "kernel_spikes_rel": [
+       0
+      ],
+      "trace_consistent": true
+     }
+    ]
+   }
+  }
+ ]
+}

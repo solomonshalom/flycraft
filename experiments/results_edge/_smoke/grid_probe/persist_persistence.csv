@@ -1,0 +1,191 @@
+cond_id,label,gain,drive,block,noise_on,readout,end_act_n_max,end_spikes_max,silent_by_ms,silent_at_end,rest_hz,bin_min,bin_max,tol,slope_hz_per_s,drift_ok,first_s_hz,first_ok
+0,base,1.0,touch (all head bristles)@100,persistence:drive,0.0,(brain),0.0,0.0,50.0,True,,,,,,,,
+0,base,1.0,touch (all head bristles)@100,persistence:drive,0.0,DNa L,,,,,0.0,0.0,0.0,0.5,0.0,True,0.5,True
+0,base,1.0,touch (all head bristles)@100,persistence:drive,0.0,DNa R,,,,,0.0,0.0,0.0,0.5,0.0,True,0.5,True
+0,base,1.0,touch (all head bristles)@100,persistence:drive,0.0,DNp09,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,touch (all head bristles)@100,persistence:drive,0.0,MDN back,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,touch (all head bristles)@100,persistence:drive,0.0,GF jump,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,touch (all head bristles)@100,persistence:drive,0.0,DNp13 reject,,,,,36.25,35.0,37.5,3.625,0.0,True,37.0,True
+0,base,1.0,touch (all head bristles)@100,persistence:drive,0.0,feed MNs,,,,,15.826923076923077,15.51923076923077,16.134615384615383,1.5826923076923078,0.0,True,16.48076923076923,True
+0,base,1.0,touch (all head bristles)@100,persistence:drive,0.0,MN9,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,touch (all head bristles)@100,persistence:drive,0.0,PAM (reward DA),,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,touch (all head bristles)@100,persistence:drive,0.0,PPL1 (punish DA),,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,touch (all head bristles)@100,persistence:drive,0.0,KC,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,touch (all head bristles)@100,persistence:drive,0.0,DN all,,,,,8.112432847275517,8.036838066001534,8.1880276285495,0.8112432847275518,0.0,True,8.08825786646201,True
+0,base,1.0,touch (all head bristles)@100,persistence:drive,0.0,pC1a recept,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,touch (all head bristles)@100,persistence:drive,0.0,pC1b/c,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,touch (all head bristles)@100,persistence:drive,0.0,pC1d/e aggr,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,touch (all head bristles)@100,persistence:drive,0.0,aIPg aggr,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,touch (all head bristles)@100,persistence:drive,0.0,vpoEN/DN accept,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,touch (all head bristles)@100,persistence:drive,0.0,oviDN egg,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,cVA (Or67d/DA1)@100,persistence:drive,0.0,(brain),52411.0,17391.0,500.0,False,,,,,,,,
+0,base,1.0,cVA (Or67d/DA1)@100,persistence:drive,0.0,DNa L,,,,,13.5,11.5,15.5,1.35,0.0,False,10.0,False
+0,base,1.0,cVA (Or67d/DA1)@100,persistence:drive,0.0,DNa R,,,,,12.0,11.5,12.5,1.2000000000000002,0.0,True,5.5,False
+0,base,1.0,cVA (Or67d/DA1)@100,persistence:drive,0.0,DNp09,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,cVA (Or67d/DA1)@100,persistence:drive,0.0,MDN back,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,cVA (Or67d/DA1)@100,persistence:drive,0.0,GF jump,,,,,0.25,0.0,0.5,0.5,0.0,True,0.0,True
+0,base,1.0,cVA (Or67d/DA1)@100,persistence:drive,0.0,DNp13 reject,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,cVA (Or67d/DA1)@100,persistence:drive,0.0,feed MNs,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,cVA (Or67d/DA1)@100,persistence:drive,0.0,MN9,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,cVA (Or67d/DA1)@100,persistence:drive,0.0,PAM (reward DA),,,,,0.013029315960912053,0.003257328990228013,0.02280130293159609,0.5,0.0,True,0.016286644951140065,True
+0,base,1.0,cVA (Or67d/DA1)@100,persistence:drive,0.0,PPL1 (punish DA),,,,,6.84375,6.1875,7.5,0.6843750000000001,0.0,False,5.5625,False
+0,base,1.0,cVA (Or67d/DA1)@100,persistence:drive,0.0,KC,,,,,0.10884682248406413,0.10256905543751207,0.11512458953061619,0.5,0.0,True,0.09774000386324125,True
+0,base,1.0,cVA (Or67d/DA1)@100,persistence:drive,0.0,DN all,,,,,1.9539524174980816,1.9025326170376056,2.0053722179585574,0.5,0.0,True,1.6500383729854182,True
+0,base,1.0,cVA (Or67d/DA1)@100,persistence:drive,0.0,pC1a recept,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,cVA (Or67d/DA1)@100,persistence:drive,0.0,pC1b/c,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,cVA (Or67d/DA1)@100,persistence:drive,0.0,pC1d/e aggr,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,cVA (Or67d/DA1)@100,persistence:drive,0.0,aIPg aggr,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,cVA (Or67d/DA1)@100,persistence:drive,0.0,vpoEN/DN accept,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,cVA (Or67d/DA1)@100,persistence:drive,0.0,oviDN egg,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,food odor@100,persistence:drive,0.0,(brain),49046.0,17210.0,500.0,False,,,,,,,,
+0,base,1.0,food odor@100,persistence:drive,0.0,DNa L,,,,,23.75,21.5,26.0,2.375,0.0,False,23.5,True
+0,base,1.0,food odor@100,persistence:drive,0.0,DNa R,,,,,17.25,17.0,17.5,1.725,0.0,True,13.5,False
+0,base,1.0,food odor@100,persistence:drive,0.0,DNp09,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,food odor@100,persistence:drive,0.0,MDN back,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,food odor@100,persistence:drive,0.0,GF jump,,,,,2.75,2.5,3.0,0.5,0.0,True,2.0,False
+0,base,1.0,food odor@100,persistence:drive,0.0,DNp13 reject,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,food odor@100,persistence:drive,0.0,feed MNs,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,food odor@100,persistence:drive,0.0,MN9,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,food odor@100,persistence:drive,0.0,PAM (reward DA),,,,,0.08631921824104236,0.06514657980456026,0.10749185667752444,0.5,0.0,True,0.04560260586319218,True
+0,base,1.0,food odor@100,persistence:drive,0.0,PPL1 (punish DA),,,,,18.40625,17.9375,18.875,1.8406250000000002,0.0,True,16.875,True
+0,base,1.0,food odor@100,persistence:drive,0.0,KC,,,,,1.32364303650763,1.305582383619857,1.3417036893954026,0.5,0.0,True,1.2433841993432488,True
+0,base,1.0,food odor@100,persistence:drive,0.0,DN all,,,,,1.351880276285495,1.326170376055257,1.377590176515733,0.5,0.0,True,1.2509593246354567,True
+0,base,1.0,food odor@100,persistence:drive,0.0,pC1a recept,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,food odor@100,persistence:drive,0.0,pC1b/c,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,food odor@100,persistence:drive,0.0,pC1d/e aggr,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,food odor@100,persistence:drive,0.0,aIPg aggr,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,food odor@100,persistence:drive,0.0,vpoEN/DN accept,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,food odor@100,persistence:drive,0.0,oviDN egg,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,song/sound (JO-A)@100,persistence:drive,0.0,(brain),0.0,0.0,50.0,True,,,,,,,,
+0,base,1.0,song/sound (JO-A)@100,persistence:drive,0.0,DNa L,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,song/sound (JO-A)@100,persistence:drive,0.0,DNa R,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,song/sound (JO-A)@100,persistence:drive,0.0,DNp09,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,song/sound (JO-A)@100,persistence:drive,0.0,MDN back,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,song/sound (JO-A)@100,persistence:drive,0.0,GF jump,,,,,11.5,11.5,11.5,1.1500000000000001,0.0,True,10.5,True
+0,base,1.0,song/sound (JO-A)@100,persistence:drive,0.0,DNp13 reject,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,song/sound (JO-A)@100,persistence:drive,0.0,feed MNs,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,song/sound (JO-A)@100,persistence:drive,0.0,MN9,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,song/sound (JO-A)@100,persistence:drive,0.0,PAM (reward DA),,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,song/sound (JO-A)@100,persistence:drive,0.0,PPL1 (punish DA),,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,song/sound (JO-A)@100,persistence:drive,0.0,KC,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,song/sound (JO-A)@100,persistence:drive,0.0,DN all,,,,,0.11895625479662317,0.11511895625479662,0.12279355333844973,0.5,0.0,True,0.12509593246354567,True
+0,base,1.0,song/sound (JO-A)@100,persistence:drive,0.0,pC1a recept,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,song/sound (JO-A)@100,persistence:drive,0.0,pC1b/c,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,song/sound (JO-A)@100,persistence:drive,0.0,pC1d/e aggr,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,song/sound (JO-A)@100,persistence:drive,0.0,aIPg aggr,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,song/sound (JO-A)@100,persistence:drive,0.0,vpoEN/DN accept,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,song/sound (JO-A)@100,persistence:drive,0.0,oviDN egg,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,sound (JO-B)@100,persistence:drive,0.0,(brain),0.0,0.0,50.0,True,,,,,,,,
+0,base,1.0,sound (JO-B)@100,persistence:drive,0.0,DNa L,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,sound (JO-B)@100,persistence:drive,0.0,DNa R,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,sound (JO-B)@100,persistence:drive,0.0,DNp09,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,sound (JO-B)@100,persistence:drive,0.0,MDN back,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,sound (JO-B)@100,persistence:drive,0.0,GF jump,,,,,6.25,6.0,6.5,0.625,0.0,True,4.5,False
+0,base,1.0,sound (JO-B)@100,persistence:drive,0.0,DNp13 reject,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,sound (JO-B)@100,persistence:drive,0.0,feed MNs,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,sound (JO-B)@100,persistence:drive,0.0,MN9,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,sound (JO-B)@100,persistence:drive,0.0,PAM (reward DA),,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,sound (JO-B)@100,persistence:drive,0.0,PPL1 (punish DA),,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,sound (JO-B)@100,persistence:drive,0.0,KC,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,sound (JO-B)@100,persistence:drive,0.0,DN all,,,,,0.24405218726016883,0.2417498081350729,0.24635456638526476,0.5,0.0,True,0.2402148887183423,True
+0,base,1.0,sound (JO-B)@100,persistence:drive,0.0,pC1a recept,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,sound (JO-B)@100,persistence:drive,0.0,pC1b/c,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,sound (JO-B)@100,persistence:drive,0.0,pC1d/e aggr,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,sound (JO-B)@100,persistence:drive,0.0,aIPg aggr,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,sound (JO-B)@100,persistence:drive,0.0,vpoEN/DN accept,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,sound (JO-B)@100,persistence:drive,0.0,oviDN egg,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,sugar GRNs@100,persistence:drive,0.0,(brain),0.0,0.0,100.0,True,,,,,,,,
+0,base,1.0,sugar GRNs@100,persistence:drive,0.0,DNa L,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,sugar GRNs@100,persistence:drive,0.0,DNa R,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,sugar GRNs@100,persistence:drive,0.0,DNp09,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,sugar GRNs@100,persistence:drive,0.0,MDN back,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,sugar GRNs@100,persistence:drive,0.0,GF jump,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,sugar GRNs@100,persistence:drive,0.0,DNp13 reject,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,sugar GRNs@100,persistence:drive,0.0,feed MNs,,,,,28.057692307692307,26.596153846153847,29.51923076923077,2.805769230769231,0.0,False,21.96153846153846,False
+0,base,1.0,sugar GRNs@100,persistence:drive,0.0,MN9,,,,,88.5,83.0,94.0,8.85,0.0,False,74.0,False
+0,base,1.0,sugar GRNs@100,persistence:drive,0.0,PAM (reward DA),,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,sugar GRNs@100,persistence:drive,0.0,PPL1 (punish DA),,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,sugar GRNs@100,persistence:drive,0.0,KC,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,sugar GRNs@100,persistence:drive,0.0,DN all,,,,,1.4535686876438987,1.3883346124328473,1.51880276285495,0.5,0.0,True,1.2570990023023791,True
+0,base,1.0,sugar GRNs@100,persistence:drive,0.0,pC1a recept,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,sugar GRNs@100,persistence:drive,0.0,pC1b/c,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,sugar GRNs@100,persistence:drive,0.0,pC1d/e aggr,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,sugar GRNs@100,persistence:drive,0.0,aIPg aggr,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,sugar GRNs@100,persistence:drive,0.0,vpoEN/DN accept,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,sugar GRNs@100,persistence:drive,0.0,oviDN egg,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,pheromones + song + touch@100,persistence:drive,0.0,(brain),49679.0,17899.0,500.0,False,,,,,,,,
+0,base,1.0,pheromones + song + touch@100,persistence:drive,0.0,DNa L,,,,,0.0,0.0,0.0,0.5,0.0,True,1.0,False
+0,base,1.0,pheromones + song + touch@100,persistence:drive,0.0,DNa R,,,,,0.0,0.0,0.0,0.5,0.0,True,0.5,True
+0,base,1.0,pheromones + song + touch@100,persistence:drive,0.0,DNp09,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,pheromones + song + touch@100,persistence:drive,0.0,MDN back,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,pheromones + song + touch@100,persistence:drive,0.0,GF jump,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,pheromones + song + touch@100,persistence:drive,0.0,DNp13 reject,,,,,34.0,32.5,35.5,3.4000000000000004,0.0,True,35.5,True
+0,base,1.0,pheromones + song + touch@100,persistence:drive,0.0,feed MNs,,,,,15.461538461538462,15.25,15.673076923076923,1.5461538461538462,0.0,True,15.538461538461538,True
+0,base,1.0,pheromones + song + touch@100,persistence:drive,0.0,MN9,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,pheromones + song + touch@100,persistence:drive,0.0,PAM (reward DA),,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,pheromones + song + touch@100,persistence:drive,0.0,PPL1 (punish DA),,,,,0.6875,0.4375,0.9375,0.5,0.0,True,1.0625,True
+0,base,1.0,pheromones + song + touch@100,persistence:drive,0.0,KC,,,,,0.09938188139849333,0.0938767626038246,0.10488700019316206,0.5,0.0,True,0.10025111068186207,True
+0,base,1.0,pheromones + song + touch@100,persistence:drive,0.0,DN all,,,,,8.772831926323867,8.745203376822717,8.80046047582502,0.8772831926323867,0.0,True,8.715272448196469,True
+0,base,1.0,pheromones + song + touch@100,persistence:drive,0.0,pC1a recept,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,pheromones + song + touch@100,persistence:drive,0.0,pC1b/c,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,pheromones + song + touch@100,persistence:drive,0.0,pC1d/e aggr,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,pheromones + song + touch@100,persistence:drive,0.0,aIPg aggr,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,pheromones + song + touch@100,persistence:drive,0.0,vpoEN/DN accept,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,pheromones + song + touch@100,persistence:drive,0.0,oviDN egg,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,Or47b (VA1v)@90 & CO2 (V)@3,persistence:drive,0.0,(brain),49234.0,17107.0,500.0,False,,,,,,,,
+0,base,1.0,Or47b (VA1v)@90 & CO2 (V)@3,persistence:drive,0.0,DNa L,,,,,3.75,0.0,7.5,0.5,0.0,False,0.0,False
+0,base,1.0,Or47b (VA1v)@90 & CO2 (V)@3,persistence:drive,0.0,DNa R,,,,,6.5,0.5,12.5,0.65,0.0,False,0.0,False
+0,base,1.0,Or47b (VA1v)@90 & CO2 (V)@3,persistence:drive,0.0,DNp09,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,Or47b (VA1v)@90 & CO2 (V)@3,persistence:drive,0.0,MDN back,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,Or47b (VA1v)@90 & CO2 (V)@3,persistence:drive,0.0,GF jump,,,,,2.5,1.0,4.0,0.5,0.0,False,0.0,False
+0,base,1.0,Or47b (VA1v)@90 & CO2 (V)@3,persistence:drive,0.0,DNp13 reject,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,Or47b (VA1v)@90 & CO2 (V)@3,persistence:drive,0.0,feed MNs,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,Or47b (VA1v)@90 & CO2 (V)@3,persistence:drive,0.0,MN9,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,Or47b (VA1v)@90 & CO2 (V)@3,persistence:drive,0.0,PAM (reward DA),,,,,0.0016286644951140066,0.0,0.003257328990228013,0.5,0.0,True,0.0,True
+0,base,1.0,Or47b (VA1v)@90 & CO2 (V)@3,persistence:drive,0.0,PPL1 (punish DA),,,,,2.6875,0.125,5.25,0.5,0.0,False,0.0,False
+0,base,1.0,Or47b (VA1v)@90 & CO2 (V)@3,persistence:drive,0.0,KC,,,,,0.05785203785976434,0.007146996329920803,0.10855707938960787,0.5,0.0,True,0.0,True
+0,base,1.0,Or47b (VA1v)@90 & CO2 (V)@3,persistence:drive,0.0,DN all,,,,,0.9888718342287031,0.14658480429777437,1.8311588641596317,0.5,0.0,False,0.013046815042210282,False
+0,base,1.0,Or47b (VA1v)@90 & CO2 (V)@3,persistence:drive,0.0,pC1a recept,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,Or47b (VA1v)@90 & CO2 (V)@3,persistence:drive,0.0,pC1b/c,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,Or47b (VA1v)@90 & CO2 (V)@3,persistence:drive,0.0,pC1d/e aggr,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,Or47b (VA1v)@90 & CO2 (V)@3,persistence:drive,0.0,aIPg aggr,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,Or47b (VA1v)@90 & CO2 (V)@3,persistence:drive,0.0,vpoEN/DN accept,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,Or47b (VA1v)@90 & CO2 (V)@3,persistence:drive,0.0,oviDN egg,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,"none (hum 0.05 Hz, off at offset)",persistence:hum,0.05,(brain),1246.0,566.0,500.0,False,,,,,,,,
+0,base,1.0,"none (hum 0.05 Hz, off at offset)",persistence:hum,0.05,DNa L,,,,,1.0,1.0,1.0,0.5,0.0,True,1.5,True
+0,base,1.0,"none (hum 0.05 Hz, off at offset)",persistence:hum,0.05,DNa R,,,,,0.75,0.5,1.0,0.5,0.0,True,2.0,False
+0,base,1.0,"none (hum 0.05 Hz, off at offset)",persistence:hum,0.05,DNp09,,,,,0.25,0.0,0.5,0.5,0.0,True,0.0,True
+0,base,1.0,"none (hum 0.05 Hz, off at offset)",persistence:hum,0.05,MDN back,,,,,0.0,0.0,0.0,0.5,0.0,True,0.25,True
+0,base,1.0,"none (hum 0.05 Hz, off at offset)",persistence:hum,0.05,GF jump,,,,,0.75,0.5,1.0,0.5,0.0,True,2.5,False
+0,base,1.0,"none (hum 0.05 Hz, off at offset)",persistence:hum,0.05,DNp13 reject,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,"none (hum 0.05 Hz, off at offset)",persistence:hum,0.05,feed MNs,,,,,1.2596153846153846,0.057692307692307696,2.4615384615384617,0.5,0.0,False,0.13461538461538464,False
+0,base,1.0,"none (hum 0.05 Hz, off at offset)",persistence:hum,0.05,MN9,,,,,19.5,0.0,39.0,1.9500000000000002,0.0,False,0.0,False
+0,base,1.0,"none (hum 0.05 Hz, off at offset)",persistence:hum,0.05,PAM (reward DA),,,,,0.043973941368078175,0.04234527687296417,0.04560260586319218,0.5,0.0,True,0.0749185667752443,True
+0,base,1.0,"none (hum 0.05 Hz, off at offset)",persistence:hum,0.05,PPL1 (punish DA),,,,,0.09375,0.0625,0.125,0.5,0.0,True,0.0,True
+0,base,1.0,"none (hum 0.05 Hz, off at offset)",persistence:hum,0.05,KC,,,,,0.05321614834846436,0.052926405254008116,0.05350589144292061,0.5,0.0,True,0.05157427081321228,True
+0,base,1.0,"none (hum 0.05 Hz, off at offset)",persistence:hum,0.05,DN all,,,,,0.13814274750575595,0.0851880276285495,0.1910974673829624,0.5,0.0,True,0.13200306983883345,True
+0,base,1.0,"none (hum 0.05 Hz, off at offset)",persistence:hum,0.05,pC1a recept,,,,,0.25,0.0,0.5,0.5,0.0,True,0.0,True
+0,base,1.0,"none (hum 0.05 Hz, off at offset)",persistence:hum,0.05,pC1b/c,,,,,0.0,0.0,0.0,0.5,0.0,True,0.0,True
+0,base,1.0,"none (hum 0.05 Hz, off at offset)",persistence:hum,0.05,pC1d/e aggr,,,,,0.125,0.0,0.25,0.5,0.0,True,0.0,True
+0,base,1.0,"none (hum 0.05 Hz, off at offset)",persistence:hum,0.05,aIPg aggr,,,,,0.06521739130434782,0.043478260869565216,0.08695652173913043,0.5,0.0,True,0.0,True
+0,base,1.0,"none (hum 0.05 Hz, off at offset)",persistence:hum,0.05,vpoEN/DN accept,,,,,0.16666666666666666,0.0,0.3333333333333333,0.5,0.0,True,0.16666666666666666,True
+0,base,1.0,"none (hum 0.05 Hz, off at offset)",persistence:hum,0.05,oviDN egg,,,,,0.08333333333333333,0.0,0.16666666666666666,0.5,0.0,True,0.0,True
+0,base,1.0,"none (hum 0.2 Hz, off at offset)",persistence:hum,0.2,(brain),49686.0,17498.0,500.0,False,,,,,,,,
+0,base,1.0,"none (hum 0.2 Hz, off at offset)",persistence:hum,0.2,DNa L,,,,,19.25,19.0,19.5,1.925,0.0,True,12.0,False
+0,base,1.0,"none (hum 0.2 Hz, off at offset)",persistence:hum,0.2,DNa R,,,,,19.25,19.0,19.5,1.925,0.0,True,16.0,False
+0,base,1.0,"none (hum 0.2 Hz, off at offset)",persistence:hum,0.2,DNp09,,,,,0.0,0.0,0.0,0.5,0.0,True,1.0,False
+0,base,1.0,"none (hum 0.2 Hz, off at offset)",persistence:hum,0.2,MDN back,,,,,0.375,0.25,0.5,0.5,0.0,True,0.25,True
+0,base,1.0,"none (hum 0.2 Hz, off at offset)",persistence:hum,0.2,GF jump,,,,,1.75,0.5,3.0,0.5,0.0,False,2.5,False
+0,base,1.0,"none (hum 0.2 Hz, off at offset)",persistence:hum,0.2,DNp13 reject,,,,,0.75,0.5,1.0,0.5,0.0,True,0.5,True
+0,base,1.0,"none (hum 0.2 Hz, off at offset)",persistence:hum,0.2,feed MNs,,,,,6.51923076923077,6.403846153846154,6.634615384615385,0.651923076923077,0.0,True,0.9038461538461539,False
+0,base,1.0,"none (hum 0.2 Hz, off at offset)",persistence:hum,0.2,MN9,,,,,99.5,98.0,101.0,9.950000000000001,0.0,True,2.0,False
+0,base,1.0,"none (hum 0.2 Hz, off at offset)",persistence:hum,0.2,PAM (reward DA),,,,,0.2296416938110749,0.2280130293159609,0.23127035830618892,0.5,0.0,True,0.24755700325732896,True
+0,base,1.0,"none (hum 0.2 Hz, off at offset)",persistence:hum,0.2,PPL1 (punish DA),,,,,9.59375,9.0625,10.125,0.9593750000000001,0.0,False,6.1875,False
+0,base,1.0,"none (hum 0.2 Hz, off at offset)",persistence:hum,0.2,KC,,,,,0.28694224454317174,0.2731311570407572,0.30075333204558624,0.5,0.0,True,0.25574657137338225,True
+0,base,1.0,"none (hum 0.2 Hz, off at offset)",persistence:hum,0.2,DN all,,,,,2.1308518802762855,2.041442824251727,2.220260936300844,0.5,0.0,True,1.4305448963929392,False
+0,base,1.0,"none (hum 0.2 Hz, off at offset)",persistence:hum,0.2,pC1a recept,,,,,0.25,0.0,0.5,0.5,0.0,True,1.0,False
+0,base,1.0,"none (hum 0.2 Hz, off at offset)",persistence:hum,0.2,pC1b/c,,,,,0.25,0.25,0.25,0.5,0.0,True,0.25,True
+0,base,1.0,"none (hum 0.2 Hz, off at offset)",persistence:hum,0.2,pC1d/e aggr,,,,,0.375,0.25,0.5,0.5,0.0,True,0.25,True
+0,base,1.0,"none (hum 0.2 Hz, off at offset)",persistence:hum,0.2,aIPg aggr,,,,,0.30434782608695654,0.13043478260869565,0.4782608695652174,0.5,0.0,True,0.21739130434782605,True
+0,base,1.0,"none (hum 0.2 Hz, off at offset)",persistence:hum,0.2,vpoEN/DN accept,,,,,0.16666666666666666,0.0,0.3333333333333333,0.5,0.0,True,0.3333333333333333,True
+0,base,1.0,"none (hum 0.2 Hz, off at offset)",persistence:hum,0.2,oviDN egg,,,,,0.08333333333333333,0.0,0.16666666666666666,0.5,0.0,True,0.16666666666666666,True

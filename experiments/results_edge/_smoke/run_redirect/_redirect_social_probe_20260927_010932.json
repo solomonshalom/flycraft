@@ -1,0 +1,80 @@
+{
+ "written": "2026-09-27 01:09:38",
+ "argv": [
+  "experiments/edge/run_redirect.py",
+  "--res",
+  "experiments/results_edge/_smoke/run_redirect",
+  "--sim",
+  "dt=0.1",
+  "--sim",
+  "t_ref=2.0",
+  "--sim",
+  "delay=2.4",
+  "experiments/social_probe.py",
+  "--",
+  "--dataset",
+  "flywire",
+  "--seeds",
+  "1",
+  "--ms",
+  "100",
+  "--out",
+  "experiments/results_edge/_smoke/run_redirect/s_rounded_review.csv"
+ ],
+ "cwd": ".",
+ "env": {
+  "FLYBRAIN_SIGNS": "known",
+  "FLYBRAIN_ELN": "0.25",
+  "NUMBA_NUM_THREADS": "6"
+ },
+ "numba_threads": 6,
+ "chunks": 6,
+ "python": "3.12.8",
+ "numpy": "2.4.4",
+ "numba": "0.65.1",
+ "sha256_lif": "9c6fe7be4bc2aaed",
+ "sha256_script": "55bdc6dfc8858705",
+ "script": "experiments/social_probe.py",
+ "sha256_target": "105c88b6fa3503e2",
+ "script_args": [
+  "--dataset",
+  "flywire",
+  "--seeds",
+  "1",
+  "--ms",
+  "100",
+  "--out",
+  "experiments/results_edge/_smoke/run_redirect/s_rounded_review.csv"
+ ],
+ "res": "experiments/results_edge/_smoke/run_redirect",
+ "sim": {
+  "dt": 0.1,
+  "t_ref": 2.0,
+  "delay": 2.4
+ },
+ "status": "ok",
+ "wall_s": 6.3,
+ "lif_params": [
+  {
+   "v_rest": -52.0,
+   "v_reset": -52.0,
+   "v_thr": -45.0,
+   "tau_m": 20.0,
+   "tau_syn": 5.0,
+   "t_ref": 2.0,
+   "delay": 2.4,
+   "w_syn": 0.275,
+   "dt": 0.1,
+   "kick_mv": 68.75,
+   "noise_hz": 0.0,
+   "legacy": false,
+   "eps_v": 0.01,
+   "eps_g": 0.001,
+   "ref_steps": 20,
+   "delay_steps": 24
+  }
+ ],
+ "files": [
+  "experiments/results_edge/_smoke/run_redirect/s_rounded_review.csv"
+ ]
+}

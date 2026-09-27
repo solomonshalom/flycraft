@@ -1,0 +1,38 @@
+{
+ "written": "2026-09-27 01:06:19",
+ "argv": [
+  "brain/tests/edge_brian2_divergence.py",
+  "--conn",
+  "$TMPDIR//flycraft_brian2/flywire_export.npz",
+  "--ref",
+  "experiments/results_edge/_smoke/edge_brian2_reference/ref_sugar_times.npz",
+  "--dt",
+  "0.1",
+  "--seeds",
+  "0",
+  "--eps-v",
+  "0",
+  "--eps-g",
+  "0",
+  "--float64",
+  "--out",
+  "experiments/results_edge/_smoke/edge_brian2_divergence/div_eps0_f64.json"
+ ],
+ "cwd": ".",
+ "env": {
+  "NUMBA_NUM_THREADS": "6"
+ },
+ "numba_threads": 6,
+ "chunks": 6,
+ "python": "3.12.8",
+ "numpy": "2.4.4",
+ "numba": "0.65.1",
+ "sha256_lif": "9c6fe7be4bc2aaed",
+ "sha256_script": "2181cc4d29b94e56",
+ "ref": "experiments/results_edge/_smoke/edge_brian2_reference/ref_sugar_times.npz",
+ "conn": "$TMPDIR/flycraft_brian2/flywire_export.npz",
+ "float64": true,
+ "eps_v": 0.0,
+ "eps_g": 0.0,
+ "NUMBA_CACHE_DIR": "$TMPDIR/flycraft_edge_nbcache"
+}

@@ -1,0 +1,75 @@
+{
+ "ref": "experiments/results_edge/_smoke/edge_brian2_reference/ref_sugar_times.npz",
+ "conn": "$TMPDIR/flycraft_brian2/flywire_export.npz",
+ "dt": 0.1,
+ "ms": 200.0,
+ "drive": [
+  "in_grn_sugar:100"
+ ],
+ "gain": 1.0,
+ "w_syn_mv": 0.275,
+ "kick_mv": 68.75,
+ "noise_hz": 0.0,
+ "eps_v": 1.0,
+ "eps_g": 0.001,
+ "float64": false,
+ "chunks_T": 6,
+ "step_offset": 0,
+ "offset_calib_seed": 0,
+ "offset_hits": {
+  "-3": 2,
+  "-2": 0,
+  "-1": 13,
+  "0": 4438,
+  "1": 3,
+  "2": 4,
+  "3": 0
+ },
+ "notes": [],
+ "asserts_failed": [],
+ "seeds": [
+  {
+   "seed": 0,
+   "spikes_b2": 4465,
+   "spikes_kernel": 4466,
+   "counts_identical": false,
+   "neurons_count_differs": 1,
+   "b2_list_matches_counts": true,
+   "kernel_list_matches_counts": true,
+   "masked_equals_unmasked": true,
+   "split_run_equals_whole": true,
+   "lists_identical": false,
+   "n_match": 4438,
+   "n_b2_only": 27,
+   "n_kernel_only": 28,
+   "kernel_wall_s": 0.118,
+   "first_mismatch": {
+    "step": 1158,
+    "t_ms": 115.8,
+    "b2_only": [
+     39035
+    ],
+    "kernel_only": [],
+    "rerun_consistent": true,
+    "traced": [
+     {
+      "neuron": 39035,
+      "groups": [],
+      "side": "brian2 only",
+      "margin_mv": 0.16411010525352054,
+      "min_abs_margin_window": 0.16411010525352054,
+      "v_int": -45.16411010525352,
+      "cls": "far (> 0.05 mV): semantic",
+      "b2_spikes_rel": [
+       0
+      ],
+      "kernel_spikes_rel": [
+       2
+      ],
+      "trace_consistent": true
+     }
+    ]
+   }
+  }
+ ]
+}

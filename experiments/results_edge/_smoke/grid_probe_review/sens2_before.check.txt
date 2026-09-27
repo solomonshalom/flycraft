@@ -1,0 +1,18 @@
+check-against experiments/results/sensitivity_flywire_shiu_min1+known+eln0.25.csv (kind sensitivity)
+condition 'baseline (env model options, all conns, 100 Hz, dt 0.2)': 52 cells compared, 1 mismatches, 0 missing
+condition 'stimulus 50 Hz': 52 cells compared, 0 mismatches, 0 missing
+condition "stimulus 150 Hz (Shiu default r_poi; the body's maximum)": 0 cells compared, 0 mismatches, 1 missing
+condition 'dt 0.1 ms (Brian2 default)': 0 cells compared, 0 mismatches, 1 missing
+condition 'dt 0.5 ms': 0 cells compared, 0 mismatches, 1 missing
+condition 'legacy numerics (first version)': 0 cells compared, 0 mismatches, 1 missing
+condition 'published model: Shiu signs, eLN x1': 0 cells compared, 0 mismatches, 1 missing
+condition 'known signs, eLN x1': 0 cells compared, 0 mismatches, 1 missing
+condition 'Shiu signs, eLN x0.25': 0 cells compared, 0 mismatches, 1 missing
+condition 'known signs, eLN x0.5': 0 cells compared, 0 mismatches, 1 missing
+condition 'known signs, eLN x0.1': 0 cells compared, 0 mismatches, 1 missing
+condition 'connections >= 5 synapses': 0 cells compared, 0 mismatches, 1 missing
+condition 'Zenodo table, top_nt signs, >= 5 synapses (first version)': 0 cells compared, 0 mismatches, 1 missing
+condition 'Zenodo table, top_nt signs, all connections': 0 cells compared, 0 mismatches, 1 missing
+TOTAL: 104 cells compared, 1 mismatches (tolerance 1e-09)
+mismatches (first 100):
+baseline (env model options, all conns, 100 Hz, dt 0.2) | sound (JO-B) -> GF jump sd: np.float64(1.1385500851066221) vs 1.2729376930432892

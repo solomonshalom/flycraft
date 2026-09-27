@@ -1,0 +1,86 @@
+{
+ "written": "2026-09-27 01:25:07",
+ "argv": [
+  "experiments/edge/odor_code_plus.py",
+  "--dataset",
+  "flywire",
+  "--limit",
+  "1",
+  "--eln-subsets",
+  "--seeds",
+  "1",
+  "--ms",
+  "200",
+  "--out-dir",
+  "experiments/results_edge/_smoke/odor_code_plus",
+  "--tag",
+  "ms200"
+ ],
+ "cwd": ".",
+ "env": {
+  "NUMBA_NUM_THREADS": "6"
+ },
+ "numba_threads": 6,
+ "chunks": 6,
+ "python": "3.12.8",
+ "numpy": "2.4.4",
+ "numba": "0.65.1",
+ "sha256_lif": "9c6fe7be4bc2aaed",
+ "sha256_script": "38242c987b97accd",
+ "variants": [
+  [
+   "known+eln0.25",
+   "known",
+   0.25
+  ]
+ ],
+ "eln_subsets": {
+  "a": "all eLN x0.25",
+  "b": "ACh x0.25",
+  "c": "non-ACh x0.25",
+  "d": "mod x0",
+  "e": "mod x0, ACh x0.25",
+  "f": "gg flipped"
+ },
+ "hz": [
+  100.0
+ ],
+ "odor_sets": [
+  "test10"
+ ],
+ "odors": {
+  "test10": [
+   "DM2"
+  ]
+ },
+ "seeds": 1,
+ "ms": 200.0,
+ "limit": 1,
+ "live_min": 0.005,
+ "unclear_ln": "excitatory",
+ "subsets": {
+  "eln_counts": {
+   "ach": 71,
+   "mod": 52,
+   "gg": 27,
+   "other": 0
+  },
+  "eln_counts_by_nt": {
+   "acetylcholine": 71,
+   "serotonin": 38,
+   "gaba": 16,
+   "dopamine": 12,
+   "glutamate": 11,
+   "octopamine": 2
+  },
+  "a_equals_apply_model_options": true
+ },
+ "check": {
+  "status": "skipped (needs a --variants variant, --hz 100, --odors test10, --ms 500)"
+ },
+ "outputs": [
+  "experiments/results_edge/_smoke/odor_code_plus/odor_code_plus_flywire_hz100_test10_elnsub_ms200.csv",
+  "experiments/results_edge/_smoke/odor_code_plus/odor_code_plus_flywire_hz100_test10_elnsub_ms200_overlap.csv",
+  "experiments/results_edge/_smoke/odor_code_plus/odor_code_plus_flywire_hz100_test10_elnsub_ms200_codes.npz"
+ ]
+}

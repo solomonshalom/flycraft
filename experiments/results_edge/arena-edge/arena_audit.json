@@ -1,0 +1,58 @@
+{
+ "written": "2026-09-27 11:47:58",
+ "argv": [
+  "experiments/edge/arena_audit.py",
+  "--logs",
+  "logs/edge_arena/sync-clean/",
+  "logs/edge_arena/sync-noise0.2-notouch/",
+  "logs/edge_arena/sync-noise0.2/",
+  "--out-dir",
+  "experiments/results_edge/arena-edge"
+ ],
+ "cwd": ".",
+ "env": {
+  "NUMBA_NUM_THREADS": "3"
+ },
+ "numba_threads": 3,
+ "chunks": 3,
+ "python": "3.12.8",
+ "numpy": "2.4.4",
+ "numba": "0.65.1",
+ "sha256_lif": "9c6fe7be4bc2aaed",
+ "sha256_script": "f09bc351367e20c7",
+ "logs": 40,
+ "pairs": 20,
+ "shifts": 2000,
+ "seed": 0,
+ "quick": false,
+ "results": "release/pre_rerun_20260926/results",
+ "verdicts": {
+  "index_matches_paper_csv": false,
+  "digit_check": "0/2",
+  "longest_bout_trial": "off_ff_t3_sync-noise0.2",
+  "longest_bout_chamber": "sync-noise0.2",
+  "longest_bout_s": 15.85,
+  "longest_bout_dist_at_placement": 4.0,
+  "longest_bout_genuine": true,
+  "longest_bout_without_placed_s": 15.85,
+  "longest_bout_without_placed_first_reported_s": 15.85,
+  "longest_bout_without_placed_replication_s": NaN,
+  "longest_bout_without_plan_s": 15.85,
+  "lean_mf_farcorr_split": "6/4",
+  "lean_mf_farcorr_p": 0.7539,
+  "lean_mf_farcorr_p_holm": 1.0,
+  "lean_mf_shift_within_P": 0.1645,
+  "lean_keep": false,
+  "lean_extra_chambers": [
+   "sync-clean",
+   "sync-noise0.2",
+   "sync-noise0.2-notouch"
+  ],
+  "series_comparable": {
+   "specific sync-clean mf": true,
+   "specific sync-noise0.2 ff": true,
+   "specific sync-noise0.2 mf": true,
+   "specific sync-noise0.2-notouch ff": true
+  }
+ }
+}

@@ -1,0 +1,120 @@
+{
+ "written": "2026-09-27 07:18:37",
+ "argv": [
+  "experiments/edge/odor_code_plus.py",
+  "--dataset",
+  "flywire",
+  "--variants",
+  "known,known+eln0.25",
+  "--eln-subsets",
+  "--hz",
+  "100",
+  "--odors",
+  "test10",
+  "--out-dir",
+  "experiments/results_edge/eln-subsets",
+  "--strict",
+  "--skip-existing"
+ ],
+ "cwd": ".",
+ "env": {
+  "NUMBA_NUM_THREADS": "6"
+ },
+ "numba_threads": 6,
+ "chunks": 6,
+ "python": "3.12.8",
+ "numpy": "2.4.4",
+ "numba": "0.65.1",
+ "sha256_lif": "9c6fe7be4bc2aaed",
+ "sha256_script": "38242c987b97accd",
+ "variants": [
+  [
+   "known",
+   "known",
+   1.0
+  ],
+  [
+   "known+eln0.25",
+   "known",
+   0.25
+  ]
+ ],
+ "eln_subsets": {
+  "a": "all eLN x0.25",
+  "b": "ACh x0.25",
+  "c": "non-ACh x0.25",
+  "d": "mod x0",
+  "e": "mod x0, ACh x0.25",
+  "f": "gg flipped"
+ },
+ "hz": [
+  100.0
+ ],
+ "odor_sets": [
+  "test10"
+ ],
+ "odors": {
+  "test10": [
+   "DM2",
+   "DL5",
+   "DA1",
+   "VA1v",
+   "DM1",
+   "VM2",
+   "V",
+   "DC3",
+   "DA2",
+   "food blend (DM1+DM2+DM4+VA2+VM2)"
+  ]
+ },
+ "seeds": 2,
+ "ms": 500,
+ "limit": 0,
+ "live_min": 0.005,
+ "unclear_ln": "excitatory",
+ "subsets": {
+  "eln_counts": {
+   "ach": 71,
+   "mod": 52,
+   "gg": 27,
+   "other": 0
+  },
+  "eln_counts_by_nt": {
+   "acetylcholine": 71,
+   "serotonin": 38,
+   "gaba": 16,
+   "dopamine": 12,
+   "glutamate": 11,
+   "octopamine": 2
+  },
+  "a_equals_apply_model_options": true
+ },
+ "check": {
+  "reference": "experiments/results/odor_code_flywire.csv",
+  "reference_mtime": "2026-09-26 23:47:04",
+  "rows": 40,
+  "columns": 21,
+  "variants": [
+   "known",
+   "known+eln0.25"
+  ],
+  "seeds": [
+   0,
+   1
+  ],
+  "odors": 10,
+  "cells_differ": 0,
+  "max_abs_diff": 0.0,
+  "columns_differ": {},
+  "rows_missing": 0,
+  "overlap_pairs": 110,
+  "overlap_differ": 0,
+  "overlap_max_abs_diff": 0.0,
+  "status": "IDENTICAL"
+ },
+ "outputs": [
+  "experiments/results_edge/eln-subsets/odor_code_plus_flywire_hz100_test10_elnsub.csv",
+  "experiments/results_edge/eln-subsets/odor_code_plus_flywire_hz100_test10_elnsub_overlap.csv",
+  "experiments/results_edge/eln-subsets/odor_code_plus_flywire_hz100_test10_elnsub_codes.npz"
+ ]
+}

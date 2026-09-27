@@ -1,0 +1,1 @@
+seed,neuron,step,t_ms,rel_step,refractory,active,arrival_mv,g_mv,v_before,v_int,margin_mv,kernel_spike,b2_spike,kernel_list,v_after

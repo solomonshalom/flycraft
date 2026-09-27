@@ -1,0 +1,66 @@
+{
+ "written": "2026-09-27 07:26:34",
+ "argv": [
+  "experiments/edge/run_redirect.py",
+  "--res",
+  "experiments/results_edge/state-dose/s20",
+  "experiments/state_probe.py",
+  "--",
+  "--dataset",
+  "flywire",
+  "--seeds",
+  "3",
+  "--state-hz",
+  "20"
+ ],
+ "cwd": ".",
+ "env": {
+  "FLYBRAIN_SIGNS": "known",
+  "FLYBRAIN_ELN": "0.25",
+  "NUMBA_NUM_THREADS": "6"
+ },
+ "numba_threads": 6,
+ "chunks": 6,
+ "python": "3.12.8",
+ "numpy": "2.4.4",
+ "numba": "0.65.1",
+ "sha256_lif": "9c6fe7be4bc2aaed",
+ "sha256_script": "55bdc6dfc8858705",
+ "script": "experiments/state_probe.py",
+ "sha256_target": "7a7ac6a4ed9960d5",
+ "script_args": [
+  "--dataset",
+  "flywire",
+  "--seeds",
+  "3",
+  "--state-hz",
+  "20"
+ ],
+ "res": "experiments/results_edge/state-dose/s20",
+ "sim": {},
+ "status": "ok",
+ "wall_s": 107.1,
+ "lif_params": [
+  {
+   "v_rest": -52.0,
+   "v_reset": -52.0,
+   "v_thr": -45.0,
+   "tau_m": 20.0,
+   "tau_syn": 5.0,
+   "t_ref": 2.2,
+   "delay": 1.8,
+   "w_syn": 0.275,
+   "dt": 0.2,
+   "kick_mv": 68.75,
+   "noise_hz": 0.0,
+   "legacy": false,
+   "eps_v": 0.01,
+   "eps_g": 0.001,
+   "ref_steps": 11,
+   "delay_steps": 9
+  }
+ ],
+ "files": [
+  "experiments/results_edge/state-dose/s20/state_probe_flywire_shiu_min1+known+eln0.25_state20.csv"
+ ]
+}

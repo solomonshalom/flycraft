@@ -1,0 +1,60 @@
+{
+ "written": "2026-09-27 04:08:10",
+ "argv": [
+  "experiments/edge/arena_audit.py",
+  "--out-dir",
+  "experiments/results_edge/arena-log-audit"
+ ],
+ "cwd": ".",
+ "env": {
+  "NUMBA_NUM_THREADS": "6"
+ },
+ "numba_threads": 6,
+ "chunks": 6,
+ "python": "3.12.8",
+ "numpy": "2.4.4",
+ "numba": "0.65.1",
+ "sha256_lif": "9c6fe7be4bc2aaed",
+ "sha256_script": "f09bc351367e20c7",
+ "logs": 140,
+ "pairs": 70,
+ "shifts": 2000,
+ "seed": 0,
+ "quick": false,
+ "results": "release/pre_rerun_20260926/results",
+ "verdicts": {
+  "index_matches_paper_csv": true,
+  "digit_check": "14/14",
+  "longest_bout_trial": "off_ff_t3",
+  "longest_bout_chamber": "faint-smell",
+  "longest_bout_s": 86.25,
+  "longest_bout_dist_at_placement": 0.5376,
+  "longest_bout_genuine": false,
+  "longest_bout_without_placed_s": 31.15,
+  "longest_bout_without_placed_first_reported_s": 25.7,
+  "longest_bout_without_placed_replication_s": 31.15,
+  "longest_bout_without_plan_s": 31.15,
+  "lean_mf_farcorr_split": "15/20",
+  "lean_mf_farcorr_p": 0.4996,
+  "lean_mf_farcorr_p_holm": 0.9991,
+  "lean_mf_shift_within_P": 0.153,
+  "lean_keep": false,
+  "lean_extra_chambers": [],
+  "series_comparable": {
+   "published odor-free ff": false,
+   "published odor-free mf": false,
+   "specific faint-smell ff": true,
+   "specific faint-smell mf": true,
+   "specific clean ff": true,
+   "specific clean mf": true,
+   "specific rep-clean ff": true,
+   "specific rep-clean mf": false,
+   "specific noise0.2 ff": true,
+   "specific noise0.2 mf": true,
+   "specific rep-noise0.2 ff": true,
+   "specific rep-noise0.2 mf": false,
+   "specific noise0.2-virgin mf": true,
+   "specific rep-noise0.2-virgin mf": true
+  }
+ }
+}
